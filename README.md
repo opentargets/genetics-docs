@@ -2,11 +2,23 @@
 
 Open Targets Genetics \(OT Genetics\) is a portal highlighting variant-centric statistical evidence to allow prioritisation of candidate causal variants at trait-associated loci, and identification of potential drug targets. 
 
-The portal aggregates and merges genetic associations curated from literature with \(open source\) functional genomics, epigenetic and expression data \(e.g., eQTLs, regulatory elements\), and applies statistical fine-mapping across thousands of trait-associated loci, to resolve association signals and link each variant to its target gene\(s\) using a single evidence score. Integrated cross-trait colocalisation analyses and cross-linking to details of pharmaceutical compounds extend the capacity of the platform to explore drug repositioning opportunities and shared genetic architecture. Take a look at our [Data Pipeline](our-approach/data-pipeline.md) and [Data Sources](our-approach/data-sources.md#overview-of-data-sources) for more detailed information.
+It is well established that proximity is a poor basis on which to prioritise 'causal' genes at a trait-associated locus.  Rather, integrating functional and biological data from multiple heterogeneous sources allows functionally implicated genes to be highlighted .  Our portal aggregates and merges genetic associations curated from literature with \(open source\) functional genomics, chromatin conformation, epigenetic and expression data \(e.g., eQTLs, regulatory elements\), and applies statistical fine-mapping across thousands of trait-associated loci, to resolve association signals and link each variant to its proximal and distal target gene\(s\), using a single evidence score. Integrated cross-trait colocalisation analyses and cross-linking to details of pharmaceutical compounds extend the capacity of the platform to explore drug repositioning opportunities and shared genetic architecture. Take a look at our [Data Pipeline](our-approach/data-pipeline.md) and [Data Sources](our-approach/data-sources.md#overview-of-data-sources) for more detailed information.  
 
-Whatever your starting point - gene, trait or variant - OT Genetics enables detailed biological insight  and causal gene prioritisation, and informs target decision making.  It can be used to answer specific biological and target hypotheses, or as an exploratory tool - for example, to rapidly prioritise genes at associated loci in a new GWAS.  Get started now   
+Whatever your starting point - [gene](howto/gene-target.md), [trait](howto/trait-or-disease.md) or [variant ](howto/variant.md)- OT Genetics enables detailed biological insight  and causal gene prioritisation, and informs target decision making.  It can be used to answer specific biological and target hypotheses, or as an exploratory tool - for example, to rapidly prioritise genes at associated loci in a new GWAS.  Get started now by navigating to one of our tutorials.     
+
+{% hint style="success" %}
+OT is wholly open-source, freely available to academic and for-profit users alike.  Please **clearly acknowledge use of this resource** in published works, and provide XXXXX as a reference URL.  A BioArXiv paper describing the resource is forthcoming.   
+{% endhint %}
 
 ### About Open Targets
 
-Open Targets integrates large-scale genetics and genomics with drug information, influencing the way drug targets are identified and prioritized. It also generates new data using human cell models and genome editing to identify drug targets for three main therapeutic areas: oncology, immunology, and neurodegeneration. The Open Targets Platform enables users to investigate links between genes, pathways, and diseases.
+Open Targets is a academic-industrial partnership which aims to address the inefficiencies of standard drug development pipelines, and expedite the translation of research findings to licensed drugs.  We integrate large-scale genetics and genomics with drug information and many other public and proprietary data sources, influencing the way drug targets are identified and prioritised. 
+
+Using human cell models and genome editing, we are systematically generating new data to identify drug targets for three main therapeutic areas: oncology, immunology, and neurodegeneration. The Open Targets Platform \([targetvalidation.org](www.targetvalidation.org)\) enables users to investigate links between genes, pathways, diseases and existing drugs.  We created the OT Genetics Portal as a complementary, variant-focussed resource aimed at geneticists, to flexibly integrate all trait and functional annotations for human polymorphic variants.  
+
+Find out more about the vision of the Open Targets Consortium at our corporate site, [opentargets.org](www.opentargets.org)
+
+### Our Partners
+
+Open Targets is a joint collaboration of the Wellcome Sanger Institute, European Molecular Biology Laboratory-European Bioinformatics Institute \(EMBL-EBI\), GlaxoSmithKline plc, Takeda Ltd, Celgene Corporation and Biogen Inc.
 

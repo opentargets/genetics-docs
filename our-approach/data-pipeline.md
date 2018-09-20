@@ -12,5 +12,3 @@ Both stages are summarised below:
 
 ### Scoring Stage
 
-Input from Ed, Eliseo, Miguel needed
-
