@@ -8,10 +8,10 @@
 
 ## Our Approach
 
-* [Data Pipeline](our-approach/data-pipeline.md)
+* [Assigning Traits to Loci](our-approach/assigning-traits-to-loci.md)
+* [Assigning Genes to Variants](our-approach/data-pipeline.md)
 * [Annotation Data Sources](our-approach/data-sources.md)
 * [Introducing... the Gecko Plot](our-approach/introducing...-the-gecko-plot.md)
-* [Selected Methods](our-approach/selected-methods.md)
 
 ## How To Use OT Genetics Starting with...
 
@@ -23,4 +23,8 @@
 ## Programmatic Access
 
 * [Latest Updates/Change Log](programmatic-access/latest-updates-change-log.md)
+
+## Technical Pipeline
+
+* [Backend](technical-pipeline/backend.md)
 

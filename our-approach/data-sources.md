@@ -68,7 +68,7 @@ Assesses 3D chromatin conformation to identify regions interacting physically wi
 {% tab title="DHS-Corr" %}
 **DNase I Hypersensity Site Correlation**
 
-DNase I hypersensitivity is a measure of chromatin accessibility and a marker of collocated _cis_-regulatory elements.  _A priori-_defined promoters can be assigned to putative regulatory elements by assessing correlation between the promoter DHS and _cis_ non-promoter DHS.  A variant falling within a non-promoter DHS correlated with a given promoter will be assigned the trget under the control of that promoter. 
+DNase I hypersensitivity is a measure of chromatin accessibility and a marker of collocated _cis_-regulatory elements.  _A priori-_defined promoters can be assigned to putative regulatory elements by assessing correlation between the promoter DHS and _cis_ non-promoter DHS.  A variant falling within a non-promoter DHS correlated with a given promoter will be assigned the target under the control of that promoter. 
 
 | Source  | OT Source ID | OT Type ID | Cell Types |
 | :--- | :--- | :--- | :--- |
@@ -91,6 +91,8 @@ Information used to associate variants with traits and diseases currently origin
 {% hint style="info" %}
 The NHGRI-EBI GWAS Catalog conventionally included data only from non-targeted arrays.  Targeted arrays such as the Oncoarray, Cardio-Metabochip etc. are now being incorporated.
 {% endhint %}
+
+## LD Reference
 
 
 
