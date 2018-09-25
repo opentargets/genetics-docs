@@ -1,4 +1,9 @@
-# A Target
+# A Gene
 
-As part of the Open Targets Consortium, OT Genetics and its underlying analysis pipelines were designed with the intention of allowing the rapid
+{% hint style="success" %}
+1. Identify loci which functionally implicate a gene. 
+2. Identify which traits this gene may play a role in, based on variants it is assigned to.
+{% endhint %}
+
+
 
