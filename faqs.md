@@ -6,7 +6,7 @@ All data are based on GRCh37/hg19 from the [Genome Reference Consortium](https:/
 
 **How is the Genetics Portal related to the Open Targets** [**Platform**](https://www.targetvalidation.org/)**?**
 
-The Genetics Portal is a variant-centric resource that is meant to complement the Platform. Users may link out from the Portal to the Platform to discover drug information for targets of interest.
+The Genetics Portal is a variant-centric resource that is meant to complement the Platform. Users may link out from the Genetics Portal to the Platform to discover drug information for gene targets of interest.
 
 **How do I cite discoveries made using Open Targets Genetics?**
 
