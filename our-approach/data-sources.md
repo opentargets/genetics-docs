@@ -84,15 +84,5 @@ DNase I hypersensitivity is a measure of chromatin accessibility and a marker of
  We have created OT Genetics to be scalable and readily extensible.  New data sources will continually be curated, reviewed, incorporated, and documented here and in the changelog.  Please get in touch with any suggestions.  
 {% endhint %}
 
-## Traits and Diseases
-
-Information used to associate variants with traits and diseases currently originates from the [NHGRI-EBI GWAS Catalog](https://www.ebi.ac.uk/gwas/), a public, manually curated repository of published GWAS loci characterised in hypothesis-free, genome-wide approaches.  This data is supplemented with associations in UK Biobank, as reported by Neale and colleagues within the framework of their systematic generation of summary statitistics for all traits available in this cohort, the [Global Biobank Engine](http://www.nealelab.is/blog/2017/7/19/rapid-gwas-of-thousands-of-phenotypes-for-337000-samples-in-the-uk-biobank), Round 1 \(September 2017\)  
-
-{% hint style="info" %}
-The NHGRI-EBI GWAS Catalog conventionally included data only from non-targeted arrays.  Targeted arrays such as the Oncoarray, Cardio-Metabochip etc. are now being incorporated.
-{% endhint %}
-
-## LD Reference
-
 
 
