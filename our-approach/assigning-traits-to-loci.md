@@ -20,7 +20,11 @@ For the puposes of OT Genetics, independent loci were defined on the basis of pr
 
 ### Locus Definition
 
-By default, all lead variants were expanded on the basis of LD \(1000G Phase III Europeans, r2&gt;0.7\) to identify the corresponding set of tag variants \(Vt\) through which the identified phenotype signal might plausibly exert a biological effect.  For variant-phenotype combination with full summary statistics available \(currently UKB phenotypes from GBE\), a subset of these proxies corresponding to the 95% credible set at the locus for the phenotype were prioritised using a custom fine-mapping approach.      
+By default, all lead variants were expanded on the basis of LD \(1000G Phase III Europeans, r2&gt;0.7\) to identify the corresponding set of tag variants \(Vt\) through which the identified phenotype signal might plausibly exert a biological effect.  For variant-phenotype combination with full summary statistics available \(currently UKB phenotypes from GBE\), a subset of these proxies corresponding to the 95% credible set at the locus for the phenotype were prioritised using a custom fine-mapping approach:
+
+#### Custom Fine-Mapping
+
+@Ed - to fill in details      
 
 {% hint style="info" %}
 Due to a legacy pipeline mismatch, different European LD reference panels are used for conditional-joint analyses vs. the locus definition stage.  LD sources will be unified and updated in later releases of the portal.
