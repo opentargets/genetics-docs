@@ -46,7 +46,7 @@ Provide an additive indication of the direction and magnitude of the association
 
 **Data Type -** Variant-centric
 
- Provides predicted coding consequences of a single nucleotide variant, according to standard consequence ontology
+ Provides predicted coding consequences of a single nucleotide variant, according to the sequence ontology \(SO\).
 
 | Source | OT Source ID | OT Type ID | Cell Types |
 | :--- | :--- | :--- | :--- |

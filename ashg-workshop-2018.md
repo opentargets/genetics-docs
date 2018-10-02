@@ -4,5 +4,5 @@ Good Morning, and welcome to this workshop, '**Open Targets:  Using Genetics and
 
 #### Why a New Portal?
 
-OT Genetics builds on the successes of the original Open Targets Platform \(targetvalidation.org\)  
+OT Genetics builds on the successes of the Open Targets Platform \(targetvalidation.org\)  
 
