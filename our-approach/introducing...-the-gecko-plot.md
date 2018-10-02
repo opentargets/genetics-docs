@@ -23,18 +23,23 @@ The example above shows one lead selected from one study, functionally implicati
 5. Some entities will be pre-selected when the plot is loaded, based on viewing context.  Any combination of entities can then be selected and managed using the 'chip' filters.
 6. Selecting multiple entities will display the **intersection** of evidence strings containing the selections
 7. Selections dynamically update and restrict the **Evidence Strings Table**, restricting it to those evidence strings currently being displayed
-8. V\(T\) in the loci of V\(L\) are defined either on LD, or using finemapping approaches if sumstats are available.  Evidence strings which pass via a V\(T\) in the credible set are distinguished from those acting via LD-defined V\(T\) by the colour of the link \(see key\).  Credible sets are re-calculated for every V\(L\)-study pairing displayed on the plot.  The logic used to define V\(T\) can be restricted to finemapping only using the 'expansion' drop-down, in which case all LD-based V\(T\) are hidden
+8. V\(T\) in the loci of V\(L\) are defined either on LD, or using finemapping approaches if sumstats are available.  Evidence strings which pass via a V\(T\) in the credible set are distinguished from those acting via LD-defined V\(T\) by the colour of the link \(see key\).  Credible sets are re-calculated for every V\(L\)-study pairing displayed on the plot.  The logic used to define V\(T\) can be restricted to finemapping only using the 'expansion' drop-down, in which case all LD-based V\(T\) are hidden.
 9. To restrict the credible set finemapping to a single set of summary statistics, the corresponding study must be selected.  Alternatively search the Evidence String Table to identify strings of interest.
 10. The locus can be panned and zoomed using the embedded controls \(upper left\)
 11. Download a static PNG of the plot for presentation/publication using the 'PNG' link \(upper right\) 
 
 {% hint style="warning" %}
-In the current version, links are only shown between entities if there is there is a link between all four entities.  This means that variants can only be viewed in the Locus Plot if it has both a trait and a functional annotation.  The Plot will be updated to allow variants with functional but not trait annotation, for example, to be viewed in the next release.
+In the current version, links are only shown between entities if the evidence strings links all four distinct evidence types.  This means that variants can only be viewed in the Locus Plot if it has both a trait and a functional annotation.  The Plot will be updated to allow variants with functional but not trait annotation, for example, to be viewed in the next release.
 {% endhint %}
 
-### Evidence String Table
+### V2G Table
+
+Each evidence string displayed in the plot is summarised at variant level in the V2G Table, in flat format, with one observation per Study-V\(L\)-V\(T\)-Gene grouping.  The table dynamically displays only those evidence strings currently selected in the Entity Tracks, and can be quickly sorted on any column.
 
 ![](../.gitbook/assets/screen-shot-2018-10-02-at-12.14.06.png)
 
-
+1. Clicking any hyperlinked entity will take you to it's corresponding page in OT Genetics
+2. Overall V2G is a scoring of the combined strength of evidence by which a variant functionally implicates a gene across all data sources and cell types in the OT Pipeline.  Sorting on it, as in the above example, will rank the table by prioritised genes across the traits and loci selected, from highest to lowest weight of evidence.
+3. Note that the gene shown is that implicated by the V\(T\), but the p-value corresponds to the V\(L\) at the locus.
+4. Posterior Probability contains the app   
 
