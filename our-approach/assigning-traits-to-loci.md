@@ -2,7 +2,7 @@
 
 ### Lead Variant Annotation
 
-OT Genetics is based on human genome 37 \(GRCh37, hg19\) as defined by Ensembl.  Lead variants \(Vl\) implicated in a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
+OT Genetics is based on human genome 37 \(GRCh37, hg19\) as defined by Ensembl.  Lead variants \(V&lt;sub&gt;L&lt;/sub&gt;\) implicated in a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
 
 {% hint style="info" %}
 The trait entity in OT Genetics is assigned in the format `Reported Trait (Author, Year)`.   Multiple studies assessing the same trait are _not_ collapsed into a single annotation.  
