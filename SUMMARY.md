@@ -5,14 +5,15 @@
 * [Glossary](glossary.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
 * [Upcoming Features](upcoming-features.md)
+* [License & Legal](license-and-legal.md)
 
 ## Our Approach
 
 * [Pipeline Overview](our-approach/pipeline-overview.md)
 * [Assigning Traits to Loci](our-approach/assigning-traits-to-loci.md)
-* [Assigning Genes to Variants](our-approach/data-pipeline.md)
+* [Assigning Genes to Loci](our-approach/data-pipeline.md)
 * [Annotation Data Sources](our-approach/data-sources.md)
-* [Introducing... the Locus Plot](our-approach/introducing...-the-gecko-plot.md)
+* [Introducing the Locus Plot](our-approach/introducing...-the-gecko-plot.md)
 
 ## How To Use OT Genetics Starting with...
 
