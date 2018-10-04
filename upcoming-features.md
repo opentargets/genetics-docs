@@ -1,4 +1,4 @@
-# Upcoming Features
+# Future plans
 
 OT Genetics is a resource in progress
 

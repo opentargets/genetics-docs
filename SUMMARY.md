@@ -4,7 +4,7 @@
 * [FAQs](faqs.md)
 * [Glossary](glossary.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
-* [Upcoming Features](upcoming-features.md)
+* [Future plans](upcoming-features.md)
 * [License & Legal](license-and-legal.md)
 
 ## Our Approach
