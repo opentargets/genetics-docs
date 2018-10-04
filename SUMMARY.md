@@ -17,10 +17,10 @@
 
 ## How To Use OT Genetics Starting with...
 
-* [A Gene](howto/gene-target.md)
-* [A Trait or Disease](howto/trait-or-disease.md)
-* [Multiple Traits or Diseases](howto/multiple-traits-or-diseases.md)
-* [A Variant](howto/variant.md)
+* [A Gene](how-to-use-ot-genetics-starting-with.../gene-target.md)
+* [A Trait or Disease](how-to-use-ot-genetics-starting-with.../trait-or-disease.md)
+* [Multiple Traits or Diseases](how-to-use-ot-genetics-starting-with.../multiple-traits-or-diseases.md)
+* [A Variant](how-to-use-ot-genetics-starting-with.../variant.md)
 
 ## Programmatic Access
 
