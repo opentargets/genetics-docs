@@ -2,7 +2,7 @@
 
 ### Lead Variant Annotation
 
-OT Genetics is based on the human reference genome assembly GRCh37 \(hg19\) maintained by the Genome Reference Consortium.  Lead variants ![](../.gitbook/assets/vl_30%20%281%29.png) implicated in a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
+OT Genetics is based on the human reference genome assembly GRCh37 \(hg19\) maintained by the Genome Reference Consortium.  Lead variants, $$V_L$$, implicated in a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
 
 {% hint style="info" %}
 The trait entity in OT Genetics is assigned in the format `Reported Trait (Author, Year)`.   Multiple studies assessing the same trait are _not_ collapsed into a single annotation.  This preserves the integrity of the published record and will allow users to select the required study-specific sumstats for certain analyses within the portal.  
@@ -20,7 +20,7 @@ For the purposes of OT Genetics, independent loci were defined on the basis of p
 
 ### Locus Definition
 
-By default, all ![](../.gitbook/assets/vl_30%20%281%29.png) were expanded on the basis of LD \(1000 Genomes Phase III, Europeans, r2 &gt; 0.7\) to identify the corresponding set of tag variants ![](../.gitbook/assets/vt_30.png) through which the identified phenotype signal might plausibly exert a biological effect.  For variant-phenotype combination with full summary statistics available \(currently UKB phenotypes from GBE\), a subset of these proxies corresponding to the 95% credible set at the locus for the phenotype were prioritised using a custom fine-mapping approach:
+By default, all $$V_L$$ were expanded on the basis of LD \(1000 Genomes Phase III, Europeans, r2 &gt; 0.7\) to identify the corresponding set of tag variants $$V_T$$ through which the identified phenotype signal might plausibly exert a biological effect.  For variant-phenotype combination with full summary statistics available \(currently UKB phenotypes from GBE\), a subset of these proxies corresponding to the 95% credible set at the locus for the phenotype were prioritised using a custom fine-mapping approach:
 
 #### Custom Fine-Mapping
 
