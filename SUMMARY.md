@@ -9,9 +9,9 @@
 ## Our Approach
 
 * [Overview](our-approach/pipeline-overview.md)
-* [Assigning Traits to Loci](our-approach/assigning-traits-to-loci.md)
-* [Assigning Genes to Loci](our-approach/data-pipeline.md)
-* [Annotation Data Sources](our-approach/data-sources.md)
+* [Assigning Variants to Disease \(V2D\)](our-approach/assigning-traits-to-loci.md)
+* [Assigning Variants to Genes \(V2G\)](our-approach/data-pipeline.md)
+* [Data Sources](our-approach/data-sources.md)
 * [Introducing the Locus Plot](our-approach/introducing...-the-gecko-plot.md)
 
 ## How To Use OT Genetics Starting with...
@@ -27,5 +27,6 @@
 
 ## Technical Pipeline
 
-* [Backend Overview](technical-pipeline/backend.md)
+* [What Technologies Do We Use?](technical-pipeline/backend.md)
+* [GitHub Repositories](technical-pipeline/github-repositories.md)
 
