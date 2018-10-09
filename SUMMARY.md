@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [FAQs](faqs.md)
-* [Glossary](glossary.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
 * [Future plans](upcoming-features.md)
 * [Latest Updates/Change Log](latest-updates-change-log.md)
