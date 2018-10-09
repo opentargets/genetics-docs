@@ -5,6 +5,7 @@
 * [Glossary](glossary.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
 * [Future plans](upcoming-features.md)
+* [Latest Updates/Change Log](latest-updates-change-log.md)
 
 ## Our Approach
 
@@ -20,10 +21,6 @@
 * [A Trait or Disease](how-to-use-ot-genetics-starting-with.../trait-or-disease.md)
 * [Multiple Traits or Diseases](how-to-use-ot-genetics-starting-with.../multiple-traits-or-diseases.md)
 * [A Variant](how-to-use-ot-genetics-starting-with.../variant.md)
-
-## Programmatic Access
-
-* [Latest Updates/Change Log](programmatic-access/latest-updates-change-log.md)
 
 ## Technical Pipeline
 

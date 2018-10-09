@@ -1,6 +1,6 @@
 # Future plans
 
-OT Genetics is a resource in progress.  Enhancements to the existing product, and the development of new functionality and features will be ongoing.  Selected scheduled enhancements are detailed below:  
+Open Targets Genetics is a resource in progress. Enhancements to the existing product, and the development of new functionality and features will be ongoing. Selected scheduled enhancements are detailed below:  
 
 * Formal disease-molecular trait co-localisation analysis
 * More functional data, including the upcoming Open Targets-European Bioinformatics Institute eQTL database

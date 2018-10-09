@@ -1,6 +1,8 @@
 # What Technologies Do We Use?
 
-Phase 1 of the pipeline is to prepare the input data \(V2D + V2G + sumstats\) in a standardised way. Workflows are written in Python and run using Snakemake workflow management system to ensure analyses are reproducible and portable. Workflows are run on on a Google Compute instance, or the Sanger cluster, and the output is stored on Google Cloud Storage \(GCS\).
+![Diagram outlining technologies used for Open Targets Genetics](../.gitbook/assets/genetics_portal_technical_diagram.png)
+
+Phase 1 of the pipeline is to prepare the input data \(V2D + V2G + sumstats\) in a standardised way. Workflows are written in Python and run using Snakemake workflow management system to ensure analyses are reproducible and portable. Workflows are run on on a Google Compute instance, or the Sanger Institute cluster, and the output is stored on Google Cloud Storage \(GCS\).
 
 Phase 2 of the pipeline processes and merges the input data to produce evidence linking traits to variants to genes. This merging pipeline uses Scala + Spark running on a Google Dataproc cluster which automatically scales to accommodate the quantity of the data.
 
