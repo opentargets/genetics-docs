@@ -19,7 +19,7 @@ The example above shows one lead selected from one study, functionally implicati
 1. Entities and evidence strings can be coloured grey, red or blue.  
 2. Selected entities are indicated on 'chips' at the top of the plot and are highlighted blue.  For any track on which a selection has been applied, the track label will also be illuminated blue
 3. Red entities and tracks are those linked to the selected entities by underlying trait or functional annotation, but not actively selected.  They will usually be the main tracks of interest.  
-4. Grey entities are those colocated at the locus displayed, but not implicated by OT Genetics.  Grey genes can be hidden from view by using the drop-down at the top of the display.
+4. Grey entities are those colocated at the locus displayed, but not implicated by Open Targets Genetics.  Grey genes can be hidden from view by using the drop-down at the top of the display.
 5. Some entities will be pre-selected when the plot is loaded, based on viewing context.  Any combination of entities can then be selected and managed using the filters.
 6. Selecting multiple entities will display the **intersection** of evidence strings containing the selections
 7. Selections dynamically update and restrict the **V2G Table**, restricting it to those evidence strings currently being displayed
@@ -38,8 +38,8 @@ Each evidence string displayed in the plot is summarised at variant level in the
 
 ![](../.gitbook/assets/screen-shot-2018-10-02-at-12.14.06.png)
 
-1. Clicking any hyperlinked entity will take you to it's corresponding page in OT Genetics
-2. Overall V2G is a scoring of the combined strength of evidence by which a variant functionally implicates a gene across all data sources and cell types in the OT Pipeline.  Sorting on it, as in the above example, will rank the table by prioritised genes across the traits and loci selected, from highest to lowest weight of evidence.
+1. Clicking any hyperlinked entity will take you to it's corresponding page in Open Targets Genetics
+2. Overall V2G is a scoring of the combined strength of evidence by which a variant functionally implicates a gene across all data sources and cell types in the Open Targets Pipeline.  Sorting on it, as in the above example, will rank the table by prioritised genes across the traits and loci selected, from highest to lowest weight of evidence.
 3. LD values shown are between the $$V_L$$ and $$V_T$$ 
 4. For fine-mapped variants only, Posterior Probability contains the log\(ABF\) that the $$V_T$$ is the causal variant of the association with the trait in question at this locus 
 5. Data in the table as a whole can be dowloaded in a range of structured or flat formats using the corresponding buttons - this may be particularly useful when the table contains many rows.

@@ -4,6 +4,7 @@
 * [FAQs](faqs.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
 * [Future plans](upcoming-features.md)
+* [Change Log](latest-updates-change-log.md)
 
 ## Our Approach
 
@@ -12,9 +13,8 @@
 * [Assigning Variants to Genes \(V2G\)](our-approach/data-pipeline.md)
 * [Data Sources](our-approach/data-sources.md)
 * [Introducing the Locus Plot](our-approach/introducing...-the-gecko-plot.md)
-* [Latest Updates/Change Log](latest-updates-change-log.md)
 
-## How To Use OT Genetics
+## How To Use Open Targets Genetics
 
 * [A Gene](how-to-use-ot-genetics-starting-with.../gene-target.md)
 * [A Trait or Disease](how-to-use-ot-genetics-starting-with.../trait-or-disease.md)

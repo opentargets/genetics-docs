@@ -2,10 +2,10 @@
 
 ### Lead Variant Annotation
 
-OT Genetics is based on the human reference genome assembly GRCh37 \(hg19\) maintained by the Genome Reference Consortium. Lead variants, $$V_L$$, associated with a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
+Open Targets Genetics is based on the human reference genome assembly GRCh37 maintained by the Genome Reference Consortium. Lead variants, $$V_L$$, associated with a phenotype by hypothesis-free approaches \(GWAS\) are initially annotated with their associated trait\(s\) as described below:
 
 {% hint style="info" %}
-The trait entity in OT Genetics is assigned in the format `Reported Trait (Author, Year).`  Multiple studies assessing the same trait are _not_ collapsed into a single annotation. This preserves the integrity of the published record and will allow users to select study-specific analyses within the portal.  
+Traits in Open Targets Genetics is assigned in the format `Reported Trait (Author, Year).`  Multiple studies assessing the same trait are _not_ collapsed into a single annotation. This preserves the integrity of the published record and will allow users to select study-specific analyses within the portal.  
 {% endhint %}
 
 #### Published Associations
