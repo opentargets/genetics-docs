@@ -44,5 +44,7 @@ Where multiple index SNPs are found at the same locus \(within 500kb of each oth
 
 **Credible set analysis**
 
-Credible set analysis is conducted for each associated locus using the above conditional summary statistics. We calculate an approximate Bayes factors \(ABF\) for all variants in a defined region around the index variant \(±500kb\). ABFs are computed using the `approx.bf.p` [method](https://github.com/chr1swallace/coloc/blob/master/R/claudia.R#L67) re-implemented from the [_coloc_](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004383) package. Variants are ordered by their posterior probabilities \(PP\) and sequentially added to the credible set until the cumulative sum is &gt;0.95 \(95% credible set\). The python implementation from our current fine-mapping pipeline can be found [here](https://github.com/opentargets/finemapping).
+Credible set analysis is conducted for each associated locus using the above conditional summary statistics. We calculate an approximate Bayes factors \(ABF\) for all variants in a defined region around the index variant \(±500kb\). ABFs are computed using the `approx.bf.p` [method](https://github.com/chr1swallace/coloc/blob/master/R/claudia.R#L67) re-implemented from the [_coloc_](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004383) package. Variants are ordered by their posterior probabilities \(PP\) and sequentially added to the credible set until the cumulative sum is &gt;0.95 \(95% credible set\).
+
+The implementation of our fine-mapping pipeline can be found [here](https://github.com/opentargets/finemapping).
 
