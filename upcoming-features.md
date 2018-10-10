@@ -7,3 +7,5 @@ Open Targets Genetics is a resource in progress. Enhancements to the existing pr
 * More full summary statistics, meaning more fine-mapping / coloc
 * Therapeutic area specific profiles \(e.g. only include functional data relevant to immune-related disease in variant-to-gene assignment/scoring\)
 
+Register to be informed of future updates [here](http://eepurl.com/dHnchn).
+
