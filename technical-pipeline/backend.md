@@ -10,7 +10,7 @@ The infrastructure used to serve the data through the _front-end_ by an [API](ht
 
 * An auto-scalable group of API instances which interprets GraphQL queries and serves the required data from,
 * another auto-scalable group of high-performance ClickHouse _DB_ instances, through
-* an internal TCP regional load-balancer which makes transparent and high-available the number of ClickHouse nodes running at that period of time.
+* an internal TCP regional load-balancer which makes transparent and high-available the number of ClickHouse nodes running at any period of time.
 
 The API, which also acts as a [playground](http://genetics-api.opentargets.io/graphql/browser) where you can interactively execute GraphQL queries and play with real data, is written in Scala with Play framework using Sangria as a server-side GraphQL implementation.
 
