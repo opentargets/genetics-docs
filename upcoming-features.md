@@ -1,4 +1,4 @@
-# Future plans
+# Future Plans
 
 Open Targets Genetics is a resource in progress. Enhancements to the existing product, and the development of new functionality and features will be ongoing. Selected scheduled enhancements are detailed below:  
 

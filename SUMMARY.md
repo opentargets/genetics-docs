@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [FAQs](faqs.md)
 * [ASHG Workshop 2018](ashg-workshop-2018.md)
-* [Future plans](upcoming-features.md)
+* [Future Plans](upcoming-features.md)
 * [Change Log](latest-updates-change-log.md)
 
 ## Our Approach
