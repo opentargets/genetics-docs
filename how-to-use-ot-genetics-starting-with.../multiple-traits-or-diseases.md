@@ -1,4 +1,4 @@
-# Multiple Traits or Diseases
+# Multiple Studies
 
 From the Study page, multiple studies can quickly be compared to identify overlapping signals.  To navigate to the study comparison view, click through the ![](../.gitbook/assets/screen-shot-2018-10-12-at-15.05.21.png)  button, in the header of the study page of the first study for comparison.
 

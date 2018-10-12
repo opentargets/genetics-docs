@@ -4,10 +4,16 @@
 Search by a Variant ![](../.gitbook/assets/vl_30%20%281%29.png) or ![](../.gitbook/assets/vt_30.png) to:
 
 1. Identify a ranked list of genes which are functionally implicated by the variant
-2. View and dissect 
-
-Whether a variant is a lead or tag cannot be specified - simply enter the variant of interest.  There will be slight differences in the returned variant page for lead and tag variants, though.
+2. View and dissect the functional data by which genes are assigned to this variant
+3. View PheWAS results for the variant in UK Biobank
+4. View linkage structure around the variant
 {% endhint %}
+
+{% hint style="info" %}
+Whether a variant is a lead or tag variant cannot be specified whilst searching; simply enter the variant of interest.  The page returned will differ slightly depending on whether the variant has been 
+{% endhint %}
+
+Whether a variant is a lead or tag cannot be specified whilst searching - simply enter the variant of interest.  There will be slight differences in the returned variant page for lead and tag variants
 
 ### You Will See
 

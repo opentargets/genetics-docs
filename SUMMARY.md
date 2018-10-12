@@ -18,7 +18,7 @@
 
 * [A Gene](how-to-use-ot-genetics-starting-with.../gene-target.md)
 * [A Study \(Trait\)](how-to-use-ot-genetics-starting-with.../trait-or-disease.md)
-* [Multiple Traits or Diseases](how-to-use-ot-genetics-starting-with.../multiple-traits-or-diseases.md)
+* [Multiple Studies](how-to-use-ot-genetics-starting-with.../multiple-traits-or-diseases.md)
 * [A Variant](how-to-use-ot-genetics-starting-with.../variant.md)
 
 ## Technical Pipeline
