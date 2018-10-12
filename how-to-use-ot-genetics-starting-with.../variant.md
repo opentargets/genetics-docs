@@ -9,10 +9,6 @@ Search by a Variant ![](../.gitbook/assets/vl_30%20%281%29.png) or ![](../.gitbo
 4. View linkage structure around the variant
 {% endhint %}
 
-{% hint style="info" %}
-Whether a variant is a lead or tag variant cannot be specified whilst searching; simply enter the variant of interest.  The page returned will differ slightly depending on whether the variant has been 
-{% endhint %}
-
 Whether a variant is a lead or tag cannot be specified whilst searching - simply enter the variant of interest.  There will be slight differences in the returned variant page for lead and tag variants
 
 ### You Will See
@@ -29,7 +25,11 @@ Overall identifying information for the variant, including its rsID if assigned,
 
 Table summarsing the extent of evidence by which the queried variant implicates various genes.  The default view summarises the combined evidence for each gene by each functional data source, collapsed across cell types within the data source.  Overall G2V is a representation of this combined evidence weighting for each gene - sort descending on this column to rank the column from most- to least-likely 'causal' gene at this locus based on the current evidence base in OT Genetics.  
 
-The presence of a bullet \(\) in the table indicates that there is evidence from the given data source linking the gene to the queried variant, in at least one cell type.  The radius of each point is proportionate to the relative magnitude of the maximum effect size across all tissues available for the data source, expressed as a quantile.  Details of how the V2G score is calculated and weighted are shown here.
+The presence of a bullet in the table indicates that there is evidence from the given data source linking the gene to the queried variant, in at least one cell type.  The radius of each point is proportionate to the relative magnitude of the maximum effect size across all tissues available for the data source, expressed as a quantile.  Details of how the V2G score is calculated and weighted are shown here.
 
-To view tissue-specific evidence within a data source, select the data source from the tabs along the top of the table widget.  An equivalent view segregated by cell type rather than data source will be opened, as above for eQTL evidence in each of 44 GTEx tissues.  If evidence from the data source being examined can be interpreted directionally,  
+To view tissue-specific evidence within a data source, select the data source from the tabs along the top of the table widget.  An equivalent view segregated by cell type rather than data source will be opened, as above for eQTL evidence in each of 44 GTEx tissues.  If evidence from the data source being examined can be interpreted directionally, bullets will be coloured according to the direction of effect.
+
+#### UK Biobank PheWAS
+
+PheWAS results for the selected variant across all UK Biobank phenotypes released by Neale and colleagues are displayed as a PheWAS plot segregated by broad phenotype, and detailed in an underlying table.  Significance is set at X on the plot, after Bonferroni correction for X phenotypes.  The direction of the plot character arrow corresponds to the beta direction of effect.  
 
