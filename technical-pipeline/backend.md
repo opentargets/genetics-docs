@@ -16,3 +16,5 @@ The API, which also acts as a [playground](http://genetics-api.opentargets.io/gr
 
 The front-end is written using the React javascript library and is hosted on Netlify.
 
+![](../.gitbook/assets/46539638-f5e39e80-c8ae-11e8-9f4a-cb84dc513347.png)
+
