@@ -46,3 +46,7 @@ The V2G scores are intended as a way to rank genes based on all available functi
 
 The data used to calculate V2G scores are already pre-filtered to remove associations with low evidence after multiple testing procedures are applied. Therefore, any $$(V,G)$$ pair with a non-zero score has at least one good string of evidence in the data. The higher the V2G score, the more evidence there is for a functional association.
 
+**Why are case counts missing for some case-control studies?**
+
+Sample case counts are stored as part of a text string in GWAS Catalog. This makes the information difficult to parse reliably. We have decided not to show case numbers for these studies.
+
