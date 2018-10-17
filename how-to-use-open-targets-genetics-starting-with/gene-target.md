@@ -1,12 +1,12 @@
 # A Gene
 
 {% hint style="success" %}
-
 **Search by a Gene** ![](../.gitbook/assets/g_30.png) **to:**
 
-1. Identify loci which functionally implicate a gene. 
-2. Link out to detailed information on the gene and drugs targeting it
-3. Identify which traits this gene may play a role in, based on variants it is assigned to.
+1. Identify loci which functionally implicate a gene
+2. Link out to detailed information on the gene and drugs targeting it 
+3. Identify which traits this gene may play a role in, based on variants to which it is assigned
+{% endhint %}
 
 ## You Will See
 
