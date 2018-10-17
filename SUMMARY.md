@@ -16,10 +16,10 @@
 
 ## How To Use Open Targets Genetics starting with
 
-* [A Gene](how-to-use-ot-genetics-starting-with.../gene-target.md)
-* [A Study \(Trait\)](how-to-use-ot-genetics-starting-with.../trait-or-disease.md)
-* [Multiple Studies](how-to-use-ot-genetics-starting-with.../multiple-traits-or-diseases.md)
-* [A Variant](how-to-use-ot-genetics-starting-with.../variant.md)
+* [A Gene](how-to-use-open-targets-genetics-starting-with/gene-target.md)
+* [A Study \(Trait\)](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md)
+* [Multiple Studies](how-to-use-open-targets-genetics-starting-with/multiple-traits-or-diseases.md)
+* [A Variant](how-to-use-open-targets-genetics-starting-with/variant.md)
 
 ## Technical Pipeline
 
