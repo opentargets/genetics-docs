@@ -6,11 +6,11 @@ All data are based on GRCh37/hg19 from the [Genome Reference Consortium](https:/
 
 **How is the Genetics Portal related to the** [**Open Targets Platform**](https://www.targetvalidation.org)**?**
 
-The Genetics Portal is a variant-centric resource that complements the Open Targets Platform. Users may link out from the Genetics Portal to the Open Targets Platform to discover drug information for gene targets of interest.
+The Genetics Portal is a variant-centric resource that complements the Open Targets Platform. Users can navigate to the Open Targets Platform from our Genetics portal and drug information in clinical trials \(or already marketed\) for any target of interest.
 
 **How do I cite discoveries made using Open Targets Genetics?**
 
-Please cite the Open Targets flagship paper, ["Open Targets: a platform for therapeutic target identification and validation"](https://academic.oup.com/nar/article/45/D1/D985/2605745).
+Please cite our Open Targets paper, ["Open Targets: a platform for therapeutic target identification and validation"](https://academic.oup.com/nar/article/45/D1/D985/2605745).
 
 **How can I stay informed about new features and developments?**
 
@@ -30,11 +30,11 @@ Linkage disequilibrium is calculated using the 1000 Genome Phase 3 reference pan
 
 **Why is there no credible set information for my associated-locus of interest?**
 
-Fine-mapping can only be conduct for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. In the near future the new GWAS Catalog summary statistic repository will be included. We encourage data-creators to submit their full summary statistics to the GWAS Catalog.
+Fine-mapping can only be conduct for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistic repository, which will then be included in the Open Targetes Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
 
 **Why isn't my variant in the portal?**
 
-We use the [Ensembl Variation version 92 VCF](ftp://ftp.ensembl.org/pub/grch37/update/variation/vcf/homo_sapiens/) as a variant index. All ~350 million variants in the index should be included in the portal. However, there are some examples of variants that are missing from the index. If you find a variant that you think should be in the portal but isn't, please let us know at geneticsportal@opentargets.org.
+We use the [Ensembl Variation version 92 VCF](ftp://ftp.ensembl.org/pub/grch37/update/variation/vcf/homo_sapiens/) as a variant index. All ~350 million variants in the index should be included in the portal. However, there are some examples of variants that are missing from the index. If you find a variant that you think should be in the portal but isn't, please [email us](mailto:geneticsportal@opentargets.org) the details of the variants and we will investigate this further.
 
 **How do I download the credible set of variants for an association of interest?**
 

@@ -12,7 +12,7 @@
 
 ### Gene Meta-data
 
-Details of the gene, including link-outs to interrogate the gene in the OT Platform and through other external providers. Click through the link to load the Locus View for the gene, with the queried gene pre-selected.
+Details of the gene, including link-outs to interrogate the gene in the [Open Targets Platform](https://www.targetvalidation.org) and through other external providers, such as [Ensembl](www.ensembl.org), [GTEx](https://gtexportal.org/home/) and [Gene Cards](https://www.genecards.org/). Click through the link to load the Locus View for the gene, with the queried gene pre-selected.
 
 ![](../.gitbook/assets/screen-shot-2018-10-12-at-14.44.31.png)
 
