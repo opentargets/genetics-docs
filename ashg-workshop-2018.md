@@ -4,3 +4,5 @@ Good Morning, and welcome to this workshop, '**Open Targets: Using Genetics and 
 
 {% file src=".gitbook/assets/ashg\_workshop\_exercises\_handout \(2\).pdf" caption="Workshop Exercises" %}
 
+{% file src=".gitbook/assets/ashg\_workshop\_version\_2\_lowres.pptx" %}
+
