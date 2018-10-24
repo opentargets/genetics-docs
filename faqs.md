@@ -22,7 +22,7 @@ RsIDs are not unique to a single variant. Many multi-allelic sites are assigned 
 
 **Why are there no lead variant effect sizes in the portal?**
 
-We currently don't show effect sizes for lead variants in the portal. We initially took this decision as we can't consistently harmonise effect directions given only an rsID and risk-allele \(from the curated GWAS Catalog data\). In a future release, we plan to provide effect sizes for non-palindromic and non-ambiguously mapped variants \(see above\).
+We currently don't show effect sizes for lead variants in the portal. We initially took this decision as we can't consistently harmonise effect directions given only an rsID and one risk-allele \(from the curated GWAS Catalog data\). In a future release, we plan to provide effect sizes for non-palindromic and non-ambiguously mapped variants \(see above\).
 
 **Why is there no LD information for my associated-locus of interest?**
 
