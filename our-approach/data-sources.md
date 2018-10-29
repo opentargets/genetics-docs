@@ -6,7 +6,7 @@
 
 **Disease-associated loci sources \(V2D\)**
 
-* [GWAS Catalog curated studies](https://www.ebi.ac.uk/gwas/downloads)
+* [GWAS Catalog curated studies](https://www.ebi.ac.uk/gwas/)
 * [Neale lab UK Biobank summary statistics](http://www.nealelab.is/uk-biobank/)
 
 **Haplotype reference samples**
