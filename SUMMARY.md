@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [FAQs](faqs.md)
-* [ASHG Workshop 2018](ashg-workshop-2018.md)
 * [Future Plans](upcoming-features.md)
 * [Change Log](latest-updates-change-log.md)
 
@@ -25,4 +24,9 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
+* [Data Download](technical-pipeline/data-download.md)
+
+## Meetings
+
+* [ASHG Workshop 2018](meetings/ashg-workshop-2018.md)
 
