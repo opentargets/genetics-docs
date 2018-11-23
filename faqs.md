@@ -10,7 +10,7 @@ The Genetics Portal is a variant-centric resource that complements the Open Targ
 
 **How do I cite discoveries made using Open Targets Genetics?**
 
-Please cite our Open Targets paper, ["Open Targets: a platform for therapeutic target identification and validation"](https://academic.oup.com/nar/article/45/D1/D985/2605745).
+Please cite our latest paper [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331).
 
 **How can I stay informed about new features and developments?**
 
