@@ -4,6 +4,10 @@
  We have designed Open Targets Genetics to be scalable and readily extensible. New data sources will continually be curated, reviewed, incorporated, and documented here and in the changelog.  Please get in touch with any suggestions.  
 {% endhint %}
 
+**Variant index**
+
+* [GnomAD v2.1](https://gnomad.broadinstitute.org/)
+
 **Disease-associated loci sources \(V2D\)**
 
 * [GWAS Catalog curated studies](https://www.ebi.ac.uk/gwas/)

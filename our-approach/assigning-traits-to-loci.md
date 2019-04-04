@@ -10,7 +10,9 @@ Traits in Open Targets Genetics are assigned in the format **Reported Trait \(Au
 
 #### Published Associations
 
-Reported variant-phenotype associations in literature were identified _via_ the NHGRI-EBI GWAS Catalog, a manually-curated database of published variants meeting certain inclusion criteria, which will be familiar to most geneticists. On an ongoing basis, GWAS Catalog extracts and records detailed variant and study-level data for variants reported to be associated with any phenotype at a significance level of $$p≤1e−5$$, and which fall within the inclusion criteria [detailed here](https://www.ebi.ac.uk/gwas/docs/methods/criteria).
+Reported variant-phenotype associations in literature were identified _via_ the NHGRI-EBI GWAS Catalog, a manually-curated database of published variants meeting certain inclusion criteria, which will be familiar to most geneticists. On an ongoing basis, GWAS Catalog extracts and records detailed variant and study-level data for variants reported to be associated with any phenotype at a significance level of $$p≤1e−5$$, and fit the inclusion criteria [detailed here](https://www.ebi.ac.uk/gwas/docs/methods/criteria).
+
+In Open Targets Genetics we include GWAS Catalog curated associations with $$p≤5e−8$$. A [subset of studies](https://github.com/opentargets/genetics-v2d-data/blob/1fb2d604ad5c231bc912220237a2eede79fbcbba/logs/gwas-cat-assocs_clustering.log#L8) \(N=162\) then undergo distance based clustering \(±500kb\) to remove redundant associations that are an artefact of the curation process, as opposed to true independent signals. For associations that have a reported risk allele, we harmonised the effects so that all are with respect to the alternative allele.
 
 #### UK Biobank Phenotypes
 

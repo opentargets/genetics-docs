@@ -2,8 +2,8 @@
 
 **Input data workflows**
 
-* [https://github.com/opentargets/genetics-v2d\_data](https://github.com/opentargets/genetics-v2d_data): Variant to disease dataset workflows
-* [https://github.com/opentargets/genetics-v2g\_data](https://github.com/opentargets/genetics-v2g_data): Workflows to generate cis-regulatory datasets used for variant-to-gene \(V2G\) assignment
+* [https://github.com/opentargets/genetics-v2d-data](https://github.com/opentargets/genetics-v2d-data): Variant to disease dataset workflows
+* [https://github.com/opentargets/genetics-v2g-data](https://github.com/opentargets/genetics-v2g-data): Workflows to generate cis-regulatory datasets used for variant-to-gene \(V2G\) assignment
 * [https://github.com/opentargets/genetics-sumstat\_data](https://github.com/opentargets/genetics-sumstat_data): 
 
   Workflows for processing summary statistics file

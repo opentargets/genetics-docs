@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Release Notes](release-notes.md)
 * [FAQs](faqs.md)
 * [Future Plans](upcoming-features.md)
-* [Change Log](latest-updates-change-log.md)
 
 ## Our Approach
 
