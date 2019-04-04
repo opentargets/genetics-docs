@@ -24,7 +24,7 @@ RsIDs are not unique to a single variant. Many multi-allelic sites are assigned 
 
 Effect sizes are derived from summary statistics, where available, otherwise they are taken from GWAS Catalog curated data. All effects have been harmonised to be with respect to the alternative allele.
 
-An effect size may not be shown in the portal if: \(1\)  the effect was not curated for that association by GWAS Catalog; \(2\) the variant is palindromic as it is not possible to accurately infer the strand, and so direction, of a palindromic variant; \(3\) The reported risk allele is not-concordant with the alleles in our variant index.
+An effect size may not be shown in the portal if: \(1\)  the effect was not curated for that association by GWAS Catalog; \(2\) the variant is palindromic as it is not possible to accurately infer the strand, and so direction; \(3\) The reported risk allele is not-concordant with the alleles in our variant index; \(4\) the rsID to variant ID mapping was ambiguous \(not one-to-one\).
 
 Sometimes GWAS Catalog data has been curated from multiple tables in a publication, some with betas, others with odds ratios. In these cases a mixture of betas and odds ratios may be displayed for a single study.
 
