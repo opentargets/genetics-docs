@@ -62,7 +62,7 @@ The ref allele refers to the base that is found in the reference genome, current
 
 For example, if we look at [rs2476601 \(1\_114377568\_A\_G\)](https://genetics.opentargets.org/variant/1_114377568_A_G). _A_ is the ref, and _G_ is the alt. The allele frequencies and effect are with respect to the alt. So the G has frequency of 0.88 in Non-Finnish European, making it the major allele and A the minor allele.
 
-There can be more than 1 alt allele per position in the genome.
+There can be more than 1 alt allele per position in the genome, in which case they will appear as two separate variant IDs in the portal.
 
 Using ref/alt, as opposed to major/minor, keeps things consistent across studies/populations.
 
