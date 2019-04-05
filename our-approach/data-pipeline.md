@@ -52,7 +52,13 @@ Given the scale of the data, a scoring system was developed so that for a given 
 
 After weighting, sources are aggregated across sources by taking the mean weighted-quantile to give an overall V2G score for each $$(V, G)$$ pair.
 
-#### Scoring pseudocode
+### Excluded gene biotypes
+
+The following gene biotypes are excluded from all V2G analysis: 
+
+`IG_C_pseudogene`, `IG_J_pseudogene`, `IG_pseudogene`, `IG_V_pseudogene`, `polymorphic_pseudogene`, `processed_pseudogene`, `pseudogene`, `rRNA`, `rRNA_pseudogene`, `snoRNA`, `snRNA`, `transcribed_processed_pseudogene`, `transcribed_unitary_pseudogene`, `transcribed_unprocessed_pseudogene`, `TR_J_pseudogene`, `TR_V_pseudogene`, `unitary_pseudogene`, `unprocessed_pseudogene`
+
+### Scoring pseudocode
 
 ```text
 ## Preprocessing (applied across whole dataset)
