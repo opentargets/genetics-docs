@@ -1,5 +1,10 @@
 # Release Notes
 
+#### 11 April 2019
+
+* Fix compute score for distance \(canonical tss\) dataset where distance was `0`
+* Compute a quantile score based on the rank of each variant 2 gene evidence in a \(`source_id`, `feature`\) window over the raw `*_score`
+
 #### 1 April 2019
 
 * New release of GWAS Catalog curated data \(r2019-03-01\)
