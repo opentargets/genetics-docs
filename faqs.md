@@ -34,11 +34,11 @@ Linkage disequilibrium is calculated using the 1000 Genome Phase 3 reference pan
 
 #### **Why is there no credible set information for my associated-locus of interest?**
 
-Fine-mapping can only be conducted for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistic repository, which will then be included in the Open Targetes Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
+Fine-mapping can only be conducted for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistic repository, which will then be included in the Open Targets Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
 
 #### **Why isn't my variant in the portal?**
 
-Our variant index is build from the gnomAD \(v2.1\) site list, filtered to keep only variants with minor allele frequency &gt; 0.1% in any population \([code](https://github.com/opentargets/genetics-variant-annotation)\). If a variant is not in our index, it will not exist in the portal.
+Our variant index is built from the gnomAD \(v2.1\) site list, filtered to keep only variants with minor allele frequency &gt; 0.1% in any population \([code](https://github.com/opentargets/genetics-variant-annotation)\). If a variant is not in our index, it will not exist in the portal.
 
 #### **How do I download the credible set of variants for an association of interest?**
 
