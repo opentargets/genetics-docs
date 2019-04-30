@@ -11,6 +11,7 @@ Given a set of potentially _causal_ tag variants, we next assign these to genes 
 1. Molecular phenotype quantitative trait loci experiments \(e.g. eQTLs and pQTLs\)
 2. Chromatin interaction experiments \(e.g. Promoter Capture Hi-C\)
 3. _In silico_ functional predictions \(e.g. Variant Effect Predictor from Ensembl\)
+4. Distance from the canonical transcript start site \(TSS\)
 
 For each variant, the pipeline first assigns functional evidence to variant-gene pairs \(V, G\) across all sources, then applies a scoring algorithm to produce aggregated V2G scores. Detailed methods can be found [here](data-pipeline.md).
 
