@@ -5,7 +5,7 @@
 You can get all data from Open Targets Genetics data via:
 
 * [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
-* [Google BigQuery](https://cloud.google.com/bigquery/), project data set `open-targets-genetics:190303`
+* Google BigQuery, project data set `open-targets-genetics:190303`
 
 > Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage.
 >
