@@ -1,5 +1,7 @@
 # Release Notes
 
+#### Head to Open Targets blog for all [Genetics-releases](http://blog.opentargets.org/tag/genetics-releases/) posts. 
+
 #### 11 April 2019
 
 * Fix compute score for distance \(canonical tss\) dataset where distance was `0`
