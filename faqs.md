@@ -1,3 +1,9 @@
+---
+description: >-
+  Welcome to the Open Targets Genetics FAQs. If you don't find the answer you
+  were looking for, please email our Support team.
+---
+
 # FAQs
 
 #### **What genome build are data in the Genetics Portal based on?**
