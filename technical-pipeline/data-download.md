@@ -1,11 +1,13 @@
 # Data Download
 
-## Download Options
-
-You can get all data from Open Targets Genetics data via:
+You can get all data from Open Targets Genetics via:
 
 * [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
 * Google BigQuery, project [open-targets-genetics:190303](https://console.cloud.google.com/bigquery?project=open-targets-genetics&p=open-targets-genetics&d=190303&page=dataset) 
+
+We will be making this data available on the [Open Targets FTP](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/). Please check again shortly.
+
+## Versioning Table
 
 {% hint style="info" %}
 Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage.
@@ -13,9 +15,11 @@ Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/reque
 Although Open Targets makes this data publicly available, all data charges for the bucket `open-targets-genetics-releases` will be billed to the requester.
 {% endhint %}
 
-We are currently copying this data to the [EMBL-EBI public FTP / databases / Open Targets](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/) site as well; the final URL will be added to this post shortly.
+{% hint style="warning" %}
+Although we make Open Targets Genetics data publicly available, all charges to the bucket `open-targets-genetics-releases` will be billed to the requester. 
 
-## Versioning Table
+Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage for more detail.
+{% endhint %}
 
 | Data | 19.03.03 |
 | :--- | :--- |
@@ -28,7 +32,7 @@ We are currently copying this data to the [EMBL-EBI public FTP / databases / Ope
 The list of datasets with each corresponding data schema
 
 {% hint style="info" %}
-please change as required the url tags to the corresponding table stated above
+Please change the URL tags to their corresponding tables, stated above, as required.
 {% endhint %}
 
 | Folder name | Format | Spark Schema | SQL Schema \(Clickhouse Dialect\) |
