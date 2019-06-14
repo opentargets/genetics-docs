@@ -2,6 +2,12 @@
 
 #### Head to Open Targets blog for all [Genetics-releases](http://blog.opentargets.org/tag/genetics-releases/) posts. 
 
+#### 13 June 2019
+
+* Disease-molecular trait co-localisation analysis
+* Integration of new molecular QTL datasets, including the upcoming Open Targets-European Bioinformatics Institute eQTL database
+* Integration of GWAS Catalog summary statistic database, meaning more fine-mapping, colocalisation and PheWAS
+
 #### 11 April 2019
 
 * Fix compute score for distance \(canonical tss\) dataset where distance was `0`

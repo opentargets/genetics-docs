@@ -4,13 +4,14 @@
 
 * [https://github.com/opentargets/genetics-v2d-data](https://github.com/opentargets/genetics-v2d-data): Variant to disease dataset workflows
 * [https://github.com/opentargets/genetics-v2g-data](https://github.com/opentargets/genetics-v2g-data): Workflows to generate cis-regulatory datasets used for variant-to-gene \(V2G\) assignment
-* [https://github.com/opentargets/genetics-sumstat\_data](https://github.com/opentargets/genetics-sumstat_data): 
+* [https://github.com/opentargets/genetics-sumstat-data](https://github.com/opentargets/genetics-sumstat_data): 
 
   Workflows for processing summary statistics file
 
 **Genetics methods**
 
 * [https://github.com/opentargets/genetics-finemapping](https://github.com/opentargets/genetics-finemapping): Fine-mapping pipeline
+* [https://github.com/opentargets/genetics-colocalisation](https://github.com/opentargets/genetics-colocalisation): Colocalisation pipeline
 * [https://github.com/opentargets/sumstat\_harmoniser](https://github.com/opentargets/sumstat_harmoniser): Summary statistic harmoniser
 
 **Back-end**

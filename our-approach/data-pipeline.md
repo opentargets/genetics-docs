@@ -6,7 +6,7 @@
 
 All variants in the variant index are annotated using our Variant-to-Gene \(V2G\) pipeline. The pipeline integrates V2G evidence that fall into four main data types:
 
-1. Molecular phenotype quantitative trait loci experiments \(QTLs\), e.g. GTEx eQTLs
+1. Molecular phenotype quantitative trait loci experiments \(QTLs\)
 2. Chromatin interaction experiments, e.g. Promoter Capture Hi-C \(PCHi-C\)
 3. _In silico_ functional predictions, e.g. Variant Effect Predictor \(VEP\) from Ensembl
 4. Distance between the variant and each gene's canonical transcription start site \(TSS\)
@@ -43,7 +43,7 @@ Given the scale of the data, a scoring system was developed so that for a given 
 | Data type | Experiment type | Source | Weighting |
 | :--- | :--- | :--- | :--- |
 | _In silico_ functional prediction | Transcript consequence | VEP | 1.0 |
-| QTL | eQTL | GTEx v7 | 0.66 |
+| QTL | eQTL | _many_ | 0.66 |
 | QTL | pQTL | Sun _et al._ \(Nature, 2018\) | 0.66 |
 | Interaction | PCHi-C | Javierre _et al._ \(Cell, 2016\) | 0.33 |
 | Interaction | Enhancer-TSS correlation | Andersson _et al._ \(Nature, 2014\) | 0.33 |

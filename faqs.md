@@ -2,7 +2,7 @@
 
 #### **What genome build are data in the Genetics Portal based on?**
 
-All data are based on GRCh37/hg19 from the [Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc).
+All data are based on GRCh38 from the [Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc).
 
 #### **How is the Genetics Portal related to the** [**Open Targets Platform**](https://www.targetvalidation.org)**?**
 
@@ -58,7 +58,7 @@ Sample case counts are stored as part of a text string in GWAS Catalog. This mak
 
 The reference \(ref\) and alternative \(alt\) alleles can be determined by looking at the variant ID, which takes the form: _chromosome\_position\_reference\_alternative_
 
-The ref allele refers to the base that is found in the reference genome, currently GRCh37 in the portal. The alt allele refers to any base, other than the reference, that is found at the locus. The alt allele is not necessarily the minor allele.
+The ref allele refers to the base that is found in the reference genome, currently GRCh38 in the portal. The alt allele refers to any base, other than the reference, that is found at the locus. The alt allele is not necessarily the minor allele.
 
 For example, if we look at [rs2476601 \(1\_114377568\_A\_G\)](https://genetics.opentargets.org/variant/1_114377568_A_G). _A_ is the ref, and _G_ is the alt. The allele frequencies and effect are with respect to the alt. So the G has frequency of 0.88 in Non-Finnish European, making it the major allele and A the minor allele.
 
