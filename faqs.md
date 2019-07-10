@@ -42,7 +42,7 @@ Our variant index is built from the gnomAD \(v2.1\) site list, filtered to keep 
 
 #### **Why doesn't my variant report the GTEx QTL?**
 
-We apply a multiple testing correction that is different from GTEx method. We use a method that is applicable across datasets, and not all datasets conduct a permutation analysis. We use a Bonferroni correction based on the number of variants tested per gene, i.e. p &lt; 0.05 / \(number of tests per gene\). More details on filtering can be found in the [pre-processing](https://genetics-docs.opentargets.org/our-approach/data-pipeline#pre-processing) help page.
+We apply a multiple testing correction that is different from GTEx method. We use a method that is applicable across datasets, and not all datasets conduct a permutation analysis. We use a Bonferroni correction based on the number of variants tested per gene, i.e. p &lt; 0.05 / \(number of tests per gene\). For example, GTEx assigns rs4734621 \([8\_102432699\_T\_C](https://genetics.opentargets.org/variant/8_102432699_T_C)\) UBR5 whereas our V2G pipeline assigns it to ODF1 and NCALD. More details on filtering can be found in the [pre-processing](https://genetics-docs.opentargets.org/our-approach/data-pipeline#pre-processing) help page
 
 #### **How do I download the credible set of variants for an association of interest?**
 
