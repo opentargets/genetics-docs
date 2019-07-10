@@ -40,6 +40,10 @@ Fine-mapping can only be conducted for studies that we have full summary statist
 
 Our variant index is built from the gnomAD \(v2.1\) site list, filtered to keep only variants with minor allele frequency &gt; 0.1% in any population \([code](https://github.com/opentargets/genetics-variant-annotation)\). If a variant is not in our index, it will not exist in the portal.
 
+#### **Why doesn't my variant report the GTEx QTL?**
+
+We apply a multiple testing correction that is different from GTEx method. We use a method that is applicable across datasets, and not all datasets conduct a permutation analysis. We use a Bonferroni correction based on the number of variants tested per gene, i.e. p &lt; 0.05 / \(number of tests per gene\). More details on filtering can be found in the [pre-processing](https://genetics-docs.opentargets.org/our-approach/data-pipeline#pre-processing) help page.
+
 #### **How do I download the credible set of variants for an association of interest?**
 
 Credible set information is available for all studies that have gone through our fine-mapping pipeline. The full set of variants in the 95% credible set can be downloaded using the **Tag Variant** table on the **Variant** page for the lead-variant at your locus of interest.

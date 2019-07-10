@@ -16,9 +16,9 @@ Under this framework, evidence for H4 is considered evidence for colocalisation 
 
 ![Overview of the fine mapping and colocalisation pipeline](../.gitbook/assets/screen-shot-2019-06-12-at-16.44.51.png)
 
-**Preprocessing.** Both dieases and molecular trait summary statistics are processed in the same way. However, whilst disease summary statistics are required to have at least minor allele count \(MAC\) &gt; 10, the moleulcar trait summary statistics are only required to have MAC &gt; 5. This less stringent threshold of selected due to the lower sample sizes.
+**Preprocessing.** Both diseases and molecular trait summary statistics are processed in the same way. However, whilst disease summary statistics are required to have at least minor allele count \(MAC\) &gt; 10, the molecular trait summary statistics are only required to have MAC &gt; 5. This less stringent threshold of selected due to the lower sample sizes.
 
-**Finemapping.** Summary statistics undergo top loci detection, conditional analysis and credible set analysis as outlined [here](assigning-traits-to-loci.md#fine-mapping-expansion). One difference is that molecular trait top loci were kept if the nominal and conditional p-value of the lead varaint was p &lt; 0.05 / \(number of variants tested per gene\), as opposed to p &lt; 5e-8.
+**Finemapping.** Summary statistics undergo top loci detection, conditional analysis and credible set analysis as outlined [here](assigning-traits-to-loci.md#fine-mapping-expansion). One difference is that molecular trait top loci were kept if the nominal and conditional p-value of the lead variant was p &lt; 0.05 / \(number of variants tested per gene\), as opposed to p &lt; 5e-8.
 
 **Overlap detection**. The overlap between credible sets was be used to identify pairs of signals to conduct a formal colocalisation analysis on. If there is no credible set overlap, it will be assumed that there is no colocalisation between the signals. This help reduce the required computational resources.
 
