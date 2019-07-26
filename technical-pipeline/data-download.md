@@ -2,23 +2,17 @@
 
 You can get all data from Open Targets Genetics via:
 
+* EMBL-EBI FTP, database [Open Targets Genetics](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
 * [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
 * Google BigQuery, project [open-targets-genetics:190303](https://console.cloud.google.com/bigquery?project=open-targets-genetics&p=open-targets-genetics&d=190303&page=dataset)
-* EMBL-EBI FTP, database [Open Targets Genetics.](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
-
-## Versioning Table
-
-{% hint style="info" %}
-Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage.
-
-Although Open Targets makes this data publicly available, all data charges for the bucket `open-targets-genetics-releases` will be billed to the requester.
-{% endhint %}
 
 {% hint style="warning" %}
-Although we make Open Targets Genetics data publicly available, all charges to the bucket `open-targets-genetics-releases` will be billed to the requester. 
+Please note that if you download this data using Google Cloud Storage, all charges to bucket `open-targets-genetics-releases` will be billed to the requester. 
 
 Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage for more detail.
 {% endhint %}
+
+## Versioning Table
 
 | Data | 19.03.03 |
 | :--- | :--- |
