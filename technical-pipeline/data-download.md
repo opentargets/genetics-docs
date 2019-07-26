@@ -3,8 +3,8 @@
 You can get all data from Open Targets Genetics via:
 
 * EMBL-EBI FTP, database [Open Targets Genetics](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
-* [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
 * Google BigQuery, project [open-targets-genetics:190303](https://console.cloud.google.com/bigquery?project=open-targets-genetics&p=open-targets-genetics&d=190303&page=dataset)
+* [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
 
 {% hint style="warning" %}
 Please note that if you download this data using Google Cloud Storage, all charges to bucket `open-targets-genetics-releases` will be billed to the requester. 
