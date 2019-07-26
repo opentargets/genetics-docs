@@ -25,6 +25,7 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
+* [GraphQL API](technical-pipeline/graphql-api.md)
 * [Data Download](technical-pipeline/data-download.md)
 
 ## Meetings
