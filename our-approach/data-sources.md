@@ -1,7 +1,7 @@
 # Data Sources
 
 {% hint style="info" %}
- We have designed Open Targets Genetics to be scalable and readily extensible. New data sources will continually be curated, reviewed, incorporated, and documented here and in the changelog.  Please get in touch with any suggestions.  
+ We have designed Open Targets Genetics to be scalable and readily extensible. New data sources will continually be curated, reviewed, incorporated, and documented here and in the release notes.  Please get in touch with any suggestions.  
 {% endhint %}
 
 **Variant index**
@@ -25,16 +25,8 @@
 * _In silico_ functional prediction
   * [Variant-Effect Predictor \(VEP\)](https://www.ncbi.nlm.nih.gov/pubmed/27268795): Most severe transcript consequence\(s\)
 * Molecular quantitative trait locus \(QTL\) experiments
-  * [eQTL](https://www.ncbi.nlm.nih.gov/pubmed/29022597): Evidence linking genetic varition to gene expression \(see table below\)
-  * [pQTL \(Sun _et al._, 2018\)](https://www.ncbi.nlm.nih.gov/pubmed/29875488): Evidence linking genetic varition to protein abundance in Sun _et al._ \(2018\) pQTL data
-* Interaction / interval based experiments
-  * [Promoter Capture Hi-C \(Javierre _et al._, 2016\)](https://www.ncbi.nlm.nih.gov/pubmed/27863249): Evidence linking genetic variation to genes using Promoter Capture Hi-C in each of the 17 human primary hematopoietic cell types
-  * [Enhancer-TSS correlation \(Andersson _et al._, 2014\)](https://www.ncbi.nlm.nih.gov/pubmed/24670763): Evidence linking genetic variation to genes using correlation between the transcriptional activity of enhancers and transcription start sites using the FANTOM5 CAGE expression atlas
-  * [DHS-promoter correlation \(Thurman _et al._, 2012\)](https://www.ncbi.nlm.nih.gov/pubmed/22955617): Evidence linking genetic variation to genes using correlation of DNase I hypersensitive site and gene promoters across 125 cell and tissue types from ENCODE
-
-Further details on each V2G dataset, including workflows to reproduce them, are located [here](https://github.com/opentargets/v2g_data/).
-
-**eQTL datasets**
+  * [pQTL \(Sun _et al._, 2018\)](https://www.ncbi.nlm.nih.gov/pubmed/29875488): Evidence linking genetic variation to protein abundance in Sun _et al._ \(2018\) pQTL data
+  * [eQTL](https://www.ncbi.nlm.nih.gov/pubmed/29022597): Evidence linking genetic variation to gene expression. See table below:
 
 | Consortium | Tissues/cell types |
 | :--- | :--- |
@@ -53,4 +45,11 @@ Further details on each V2G dataset, including workflows to reproduce them, are 
 | TWINSUK | Skin, fat, LCL |
 | VAN\_DE\_BUNT\_2015 | Pancreatic islet |
 | eQTLGen | Blood |
+
+* Interaction / interval based experiments
+  * [Promoter Capture Hi-C \(Javierre _et al._, 2016\)](https://www.ncbi.nlm.nih.gov/pubmed/27863249): Evidence linking genetic variation to genes using Promoter Capture Hi-C in each of the 17 human primary hematopoietic cell types
+  * [Enhancer-TSS correlation \(Andersson _et al._, 2014\)](https://www.ncbi.nlm.nih.gov/pubmed/24670763): Evidence linking genetic variation to genes using correlation between the transcriptional activity of enhancers and transcription start sites using the FANTOM5 CAGE expression atlas
+  * [DHS-promoter correlation \(Thurman _et al._, 2012\)](https://www.ncbi.nlm.nih.gov/pubmed/22955617): Evidence linking genetic variation to genes using correlation of DNase I hypersensitive site and gene promoters across 125 cell and tissue types from ENCODE
+
+Further details on each V2G dataset, including workflows to reproduce them, are located [here](https://github.com/opentargets/v2g_data/).
 
