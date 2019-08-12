@@ -70,6 +70,12 @@ There can be more than 1 alt allele per position in the genome, in which case th
 
 Using ref/alt, as opposed to major/minor, keeps things consistent across studies/populations.
 
+#### **What is the effector allele?**
+
+The direction of the effect of any given allele can be obtained from the PheWAS plot. If the association has a positive beta coefficient, we assume that the alternate allele is the effector allele. If the this value is negative, the effector allele is assumed to be the reference allele. The reference allele is the allele observed in the reference human genome sequence \(GRCh38 or hg38\).
+
+At locus [rs4129267 \(1\_154453788\_C\_T](https://genetics.opentargets.org/variant/1_154453788_C_T/)\), for example, the effector allele in platelet count \(study from the UK Biobank\) is _T_, whereas _C_ is the effector allele for Rheumatoid arthritis \(GWAS Catalog study GCST005569\).
+
 #### Why is the number of independently associated loci different in the portal compared to the study's publication?
 
 We report any association that is curated by the GWAS Catalog \([see inclusion criteria](https://www.ebi.ac.uk/gwas/docs/methods/criteria)\), except for a [subset of studies](https://github.com/opentargets/genetics-v2d-data/blob/1fb2d604ad5c231bc912220237a2eede79fbcbba/logs/gwas-cat-assocs_clustering.log#L8) \(N=162\) for which we apply an additional step of distance based clumping \(±500kb\).
