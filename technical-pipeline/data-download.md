@@ -14,11 +14,11 @@ Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/reque
 
 ## Versioning Table
 
-| Data | 19.03.03 |
-| :--- | :--- |
-| [Backend scripts](https://github.com/opentargets/genetics-backend) | 19.03.08 |
-| [Spark pipeline](https://github.com/opentargets/genetics-pipe) | 19.03.10 |
-| [GraphQL API](https://github.com/opentargets/genetics-api) | 19.03.11 |
+| Data | 19.03.03 | 10.05.05 |
+| :--- | :--- | :--- |
+| [Backend scripts](https://github.com/opentargets/genetics-backend) | 19.03.08 | 19.05.28 |
+| [Spark pipeline](https://github.com/opentargets/genetics-pipe) | 19.03.10 | 19.05.15 |
+| [GraphQL API](https://github.com/opentargets/genetics-api) | 19.03.11 | 19.05.26 |
 
 ## Data Schema
 
