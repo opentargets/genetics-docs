@@ -7,5 +7,7 @@ description: >-
 
 # Pipeline schematic overview
 
-![](../.gitbook/assets/genetics-data-pipeline-10-jul-2019.jpg)
+![](../.gitbook/assets/genetics-data-pipeline-10-jul-2019%20%282%29.jpg)
+
+{% file src="../.gitbook/assets/genetics-data-pipeline-10-jul-2019.jpg" caption="Download pipeline schematic" %}
 
