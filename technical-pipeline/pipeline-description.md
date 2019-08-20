@@ -2,7 +2,7 @@
 description: >-
   This pages provides a high level overview of inputs and outputs and steps
   involved to prepare, process and join various datasets to feed the OT-Genetics
-  portal.
+  portal (last updated Jul-2019).
 ---
 
 # Pipeline schematic overview
