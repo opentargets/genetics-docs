@@ -28,7 +28,7 @@
 * [GraphQL API](technical-pipeline/graphql-api.md)
 * [Data Download](technical-pipeline/data-download.md)
 * [Change log](technical-pipeline/change-log.md)
-* [Pipeline description](technical-pipeline/pipeline-description.md)
+* [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
 
 ## Meetings
 
