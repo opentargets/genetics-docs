@@ -24,7 +24,8 @@ description: >-
     <tr>
       <td style="text-align:left">19-Aug-2019</td>
       <td style="text-align:left">Minor</td>
-      <td style="text-align:left">Data fix for specific data sets</td>
+      <td style="text-align:left">Data fix for specific data sets related to GitHub ticket <a href="https://github.com/opentargets/genetics/issues/384">#384</a>
+      </td>
       <td style="text-align:left">19.05.05</td>
       <td style="text-align:left">19.05.28</td>
       <td style="text-align:left">19.05.15</td>
