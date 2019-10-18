@@ -12,7 +12,7 @@ Search by a Variant ![](../.gitbook/assets/vl_30%20%281%29.png) or ![](../.gitbo
 Whether a variant is a lead or tag cannot be specified whilst searching - simply enter the variant of interest using an rsID or chromosome position e.g. 1\_154426264\_C\_T.  When entering a variant in the chromosome position format, options corresponding to the various allele combinations  at the locus will be displayed in the search drop-down. There will be slight differences in the returned variant page for lead and tag variants.
 
 {% hint style="info" %}
-All variants in Open Targets Genetics are notated using the format `chr_pos_ref_alt`, where `ref` and `alt` are the reference and alternate alleles as defined by Ensembl.  Coordinates are relative to the GRCh37 assembly also known as hg19.
+All variants in Open Targets Genetics are notated using the format `chr_pos_ref_alt`, where `ref` and `alt` are the reference and alternate alleles as defined by Ensembl.  Coordinates are relative to the GRCh38 assembly also known as hg38.
 {% endhint %}
 
 ### You Will See
@@ -21,17 +21,17 @@ All variants in Open Targets Genetics are notated using the format `chr_pos_ref_
 
 ![](../.gitbook/assets/screen-shot-2018-10-08-at-15.24.32.png)
 
-Overall identifying information for the variant, including its rsID if assigned, nearest gene and nearest protein-coding gene according to GRCh37.  Clicking through the 'View Locus' link will load the Locus View, with the variant preselected.  If the variant is a lead variant in any published study or in UKB sumstats, it will be highlighted on the $$V_L$$ track; otherwise it will be selected as a $$V_T$$entity.  
+Overall identifying information for the variant, including its rsID if assigned, nearest gene and nearest protein-coding gene according to GRCh38.  Clicking through the 'View Locus' link will load the Locus View, with the variant preselected.  If the variant is a lead variant in any published study or in UK Biobank sumstats, it will be highlighted on the $$V_L$$ track; otherwise it will be selected as a $$V_T$$entity.  
 
 #### Assigned Genes
 
 ![](../.gitbook/assets/screen-shot-2018-10-08-at-15.32.44.png)
 
-Table summarsing the extent of evidence by which the queried variant implicates various genes. The default view summarises the combined evidence for each gene by each functional data source, collapsed across cell types within the data source. Overall G2V is a representation of this combined evidence weighting for each gene - sort descending on this column to rank the column from most- to least-likely 'causal' gene at this locus based on the current evidence base in Open Targets Genetics.  
+Table summarising the extent of evidence by which the queried variant implicates various genes. The default view summarises the combined evidence for each gene by each functional data source, collapsed across cell types within the data source. Overall G2V is a representation of this combined evidence weighting for each gene - sort descending on this column to rank the column from most- to least-likely 'causal' gene at this locus based on the current evidence base in Open Targets Genetics.  
 
 The presence of a bullet in the table indicates that there is evidence from the given data source linking the gene to the queried variant, in at least one cell type. The radius of each point is proportionate to the relative magnitude of the maximum effect size across all tissues available for the data source, expressed as a quantile.  Details of how the V2G score is calculated and weighted are detailed in 'Our Approach'.
 
-To view tissue-specific evidence within a data source, select the data source from the tabs visible at the top of the table widget.  An equivalent view segregated by cell type rather than data source will be opened, as above for eQTL evidence in each of 44 GTEx tissues.  If evidence from the data source being examined can be interpreted directionally, bullets will be coloured according to the direction of effect:  blue notating a -ve beta, and red a +ve.  Again, the radius of the bullet is proportionate to the beta's magnitude.  Hovering over a bullet will display the underlying beta and p-value represented, as reported by the original data source.  
+To view tissue-specific evidence within a data source, select the data source from the tabs visible at the top of the table widget.  An equivalent view segregated by cell type rather than data source will be opened, as above for eQTL evidence in each of 91 cell types.  If evidence from the data source being examined can be interpreted directionally, bullets will be coloured according to the direction of effect:  blue notating a positive beta, and red a negative.  Again, the radius of the bullet is proportionate to the beta's magnitude.  Hovering over a bullet will display the underlying beta and p-value represented, as reported by the original data source.  
 
 #### UK Biobank PheWAS
 
