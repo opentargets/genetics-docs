@@ -22,6 +22,16 @@ description: >-
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">02-Feb-2020</td>
+      <td style="text-align:left">Major</td>
+      <td style="text-align:left">Integration of new GWAS curated studies and Yung et al. data</td>
+      <td style="text-align:left">20.02.01</td>
+      <td style="text-align:left">20.02.03</td>
+      <td style="text-align:left">20.02.01</td>
+      <td style="text-align:left">20.02.07</td>
+      <td style="text-align:left">0.4.0</td>
+    </tr>
+    <tr>
       <td style="text-align:left">19-Aug-2019</td>
       <td style="text-align:left">Minor</td>
       <td style="text-align:left">Data fix for specific data sets related to GitHub ticket <a href="https://github.com/opentargets/genetics/issues/384">#384</a>
