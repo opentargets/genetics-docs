@@ -22,10 +22,10 @@ description: >-
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">02-Feb-2020</td>
+      <td style="text-align:left">02-Mar-2020</td>
       <td style="text-align:left">Major</td>
-      <td style="text-align:left">Integration of new GWAS curated studies and New Promoter Capture Hi-C
-        data</td>
+      <td style="text-align:left">New locus-to-gene score, new GWAS curated studies and new Promoter Capture
+        Hi-C data</td>
       <td style="text-align:left">20.02.01</td>
       <td style="text-align:left">20.02.03</td>
       <td style="text-align:left">20.02.01</td>
