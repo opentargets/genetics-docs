@@ -2,11 +2,22 @@
 
 #### Head to Open Targets blog for all [Genetics-releases](http://blog.opentargets.org/tag/genetics-releases/) posts. 
 
+#### 02 March 2020
+
+* New locus-to-gene pipeline
+* New repository of gold-standard GWAS loci
+* Additional 637 GWAS studies from the GWAS Catalog
+* New Promoter Capture Hi-C data
+
+For more details, check the [release blog post](https://blog.opentargets.org/2020/03/06/open-targets-genetics-new-release-is-out/) and the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log).
+
 #### 13 June 2019
 
 * Disease-molecular trait co-localisation analysis
 * Integration of new molecular QTL datasets, including the upcoming Open Targets-European Bioinformatics Institute eQTL database
 * Integration of GWAS Catalog summary statistic database, meaning more fine-mapping, colocalisation and PheWAS
+
+For more details, check the [release blog post](https://blog.opentargets.org/2019/06/17/open-targets-genetics-release-19-06-is-out-2/) and the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log).
 
 #### 11 April 2019
 
