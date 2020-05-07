@@ -26,6 +26,12 @@ Many multi-allelic sites can be assigned a single rsID, and some rsIDs can point
 
 Lead variant is the variant at a given associated locus with the most significant \(smallest\) p-value whereas Tag variant is the variant that is correlated with the lead variant \(r2&gt;0.7\) or present in the credible set at a GWAS-associated signal.
 
+#### **What is the effect allele?**
+
+The effect allele is the allele whose effects in relation to disease are being studied. In Open Targets Genetics, this is always the alternative allele. 
+
+The direction of the effect of the alternative allele can be obtained from the PheWAS plot. If the association has a positive beta coefficient, this means the alternative \(effect allele\) allele increases the risk. If this value is negative, the alternative allele \(effect allele\) decreases the risk.
+
 #### **Why are betas and odds ratios displayed inconsistently in the portal?**
 
 Effect sizes are derived from summary statistics, where available, otherwise they are taken from GWAS Catalog curated data. All effects have been harmonised to be with respect to the [alternative allele](faqs.md#what-is-the-alternative-allele-why-not-use-the-minor-allele).
@@ -33,6 +39,14 @@ Effect sizes are derived from summary statistics, where available, otherwise the
 An effect size may not be shown in the portal if: \(1\)  the effect was not curated for that association by GWAS Catalog; \(2\) the variant is palindromic as it is not possible to accurately infer the strand, and so direction; \(3\) The reported risk allele is not-concordant with the alleles in our variant index; \(4\) the rsID to variant ID mapping was ambiguous \(not one-to-one\).
 
 Sometimes GWAS Catalog data has been curated from multiple tables in a publication, some with betas, others with odds ratios. In these cases a mixture of betas and odds ratios may be displayed for a single study.
+
+#### **What is the difference between beta coefficient and study beta coefficient?**
+
+For every single variant that is independently and significantly associated with one study, we will display individual beta coefficient values with respect to the alternative allele of each of these variants, such as variants 19\_44886339\_G\_A, 19\_44908822\_C\_T, 1\_109274968\_G\_T associated with [LDL cholesterol](https://genetics.opentargets.org/study/GCST002222).
+
+On the other hand, we display the **study beta** coefficient in the colocalisation table of the study locus page. This beta is with respect to the alternative allele of one single variant, the **lead variant** at the top of the study locus page e.g. [LDL cholesterol \(GCST002222\) with locus around 19\_44886339\_G\_A \(rs7254892\)](https://genetics.opentargets.org/study-locus/GCST002222/19_44886339_G_A).
+
+The reason we have decided to display the study beta it to facilitate the comparison of the direction of effect across different colocalising tissues. 
 
 #### **What is summary statistics?**
 
@@ -46,7 +60,7 @@ Linkage disequilibrium is calculated using the 1000 Genome Phase 3 reference pan
 
 Fine-mapping can only be conducted for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistics repository, which will then be included in the Open Targets Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
 
-#### **Why isn't my variant in the portal?**
+#### **Why isn't my variant in Open Targets Genetics?**
 
 Our variant index is built from the gnomAD \(v2.1\) site list, filtered to keep only variants with minor allele frequency &gt; 0.1% in any population \([code](https://github.com/opentargets/genetics-variant-annotation)\). If a variant is not in our index, it will not exist in the portal.
 
@@ -80,17 +94,7 @@ There can be more than 1 alt allele per position in the genome, in which case th
 
 Using ref/alt, as opposed to major/minor, keeps things consistent across studies/populations.
 
-#### **What is the effect allele?**
-
-The effect allele is the allele whose effects in relation to disease are being studied. In Open Targets Genetics, this is always the alternative allele. 
-
-The direction of the effect of the alternative allele can be obtained from the PheWAS plot. If the association has a positive beta coefficient, this means the alternative \(effect allele\) allele increases the risk. If this value is negative, the alternative allele \(effect allele\) decreases the risk.
-
 #### Why is the number of independently associated loci different in the portal compared to the study's publication?
 
 We report any association that is curated by the GWAS Catalog \([see inclusion criteria](https://www.ebi.ac.uk/gwas/docs/methods/criteria)\), except for a [subset of studies](https://github.com/opentargets/genetics-v2d-data/blob/1fb2d604ad5c231bc912220237a2eede79fbcbba/logs/gwas-cat-assocs_clustering.log#L8) \(N=162\) for which we apply an additional step of distance based clumping \(±500kb\).
-
-\*\*\*\*
-
-
 
