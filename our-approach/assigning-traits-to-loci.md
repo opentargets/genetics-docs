@@ -16,7 +16,7 @@ In Open Targets Genetics we include GWAS Catalog curated associations with $$pâ‰
 
 #### GWAS Catalog summary statistics repository
 
-Data from the [GWAS Catalog summary statistics reposoitory](https://www.ebi.ac.uk/gwas/summary-statistics) has been included in the portal as of June 2019. The initial release has been restricted to datasets derived from samples of predominantly European ancestry \(N=201\) due to the lack of suitable linkage-disequilibrium reference panels for conditional analysis. We are working to include all datasets in a future release of the portal.
+Data from the [GWAS Catalog summary statistics repository](https://www.ebi.ac.uk/gwas/summary-statistics) has been included in the portal as of June 2019. The initial release has been restricted to datasets derived from samples of predominantly European ancestry \(N=201\) due to the lack of suitable linkage-disequilibrium reference panels for conditional analysis. We are working to include all datasets in a future release of the portal.
 
 #### UK Biobank Phenotypes
 
@@ -30,6 +30,10 @@ The fine-mapping section below explains how associated-loci were defined using t
 ## Lead Variant to Tag Variant expansion
 
 Two methods are used to expand lead disease-associated variants into a more complete set of possibly _causal_ tag variants. Linkage-disequilibrium expansion using a reference population is applied to all studies in Open Targets Genetics, and expansion by fine-mapping \(credible set analysis\) is used where full summary statistics are available \(currently UK Biobank traits and those included in the GWAS Catalog summary statistics repository\).
+
+{% hint style="success" %}
+Head to our FAQs page for the explanation on the [differences between lead and tag variants](https://genetics-docs.opentargets.org/faqs#what-is-the-difference-between-lead-variant-and-tag-variant).
+{% endhint %}
 
 #### Linkage Disequilibrium Expansion
 
