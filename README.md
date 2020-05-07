@@ -18,11 +18,11 @@ Using human cell models and genome editing, we have been systematically generati
 
 ## Our Partners
 
-Open Targets is a joint collaboration between Biogen, Celgene, the European Molecular Biology Laboratory - European Bioinformatics Institute \(EMBL-EBI\), GSK, Sanofi, Takeda, and the Wellcome Sanger Institute.
+Open Targets is a joint collaboration between Bristol Myers Squibb, the European Molecular Biology Laboratory - European Bioinformatics Institute \(EMBL-EBI\), GSK, Sanofi, Takeda, and the Wellcome Sanger Institute.
 
 ## Copyright
 
-Copyright 2014-2018 Biogen, Celgene Corporation, EMBL - European Bioinformatics Institute, GlaxoSmithKline, Takeda Pharmaceutical Company, Sanofi S.A., and Wellcome Sanger Institute. This software was developed as part of the Open Targets project \(www.opentargets.org\)
+Copyright 2014-2018 Bristol Myers Squibb, EMBL - European Bioinformatics Institute, GlaxoSmithKline, Takeda Pharmaceutical Company, Sanofi S.A., and Wellcome Sanger Institute. This software was developed as part of the Open Targets project \(www.opentargets.org\)
 
 Licensed under the Apache License, Version 2.0 \(the "License"\); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

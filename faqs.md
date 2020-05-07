@@ -6,7 +6,9 @@ All data are based on GRCh38 from the [Genome Reference Consortium](https://www.
 
 #### **How is the Genetics Portal related to the** [**Open Targets Platform**](https://www.targetvalidation.org)**?**
 
-The Genetics Portal is a variant-centric resource that complements the Open Targets Platform. Users can navigate to the Open Targets Platform from our Genetics portal and drug information in clinical trials \(or already marketed\) for any target of interest.
+The Genetics Portal is a variant-centric resource that complements the Open Targets Platform. Users can navigate to the Open Targets Platform from Open Targets Genetics and obtain for example drug information in clinical trials \(or already marketed\) for any target of interest.
+
+The Open Targets Genetics Portal is also one of [data sources](https://docs.targetvalidation.org/data-sources/genetic-associations#open-targets-genetics-portal) that provide evidence for target-disease associations available in the Open Targets Platform.
 
 #### **How do I cite discoveries made using Open Targets Genetics?**
 
@@ -18,7 +20,11 @@ For updates, please subscribe to our [newsletter](https://opentargets.us17.list-
 
 #### **Why are there two variants mapped to the same rsID?**
 
-RsIDs are not unique to a single variant. Many multi-allelic sites are assigned a single rsID, and some rsIDs can point to different positions in the genome. We have mapped all rsIDs from GWAS Catalog to unique variants. A small minority of rsIDs will map to multiple variant IDs \(approximately 0.6% of lead variants\). When this occurs, variants will be duplicated in the portal.
+Many multi-allelic sites can be assigned a single rsID, and some rsIDs can point to different positions in the genome. This means that rsIDs are not unique to a single variant. We have mapped all rsIDs from GWAS Catalog to unique variants. A small minority of rsIDs will map to multiple variant IDs \(approximately 0.6% of lead variants\). When this occurs, variants will be duplicated in the portal.
+
+#### **What is the difference between lead variant and tag variant?**
+
+Lead variant is the variant at a given associated locus with the most significant \(smallest\) p-value whereas Tag variant is the variant that is correlated with the lead variant \(r2&gt;0.7\) or present in the credible set at a GWAS-associated signal.
 
 #### **Why are betas and odds ratios displayed inconsistently in the portal?**
 
@@ -34,7 +40,7 @@ Linkage disequilibrium is calculated using the 1000 Genome Phase 3 reference pan
 
 #### **Why is there no credible set information for my associated-locus of interest?**
 
-Fine-mapping can only be conducted for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistic repository, which will then be included in the Open Targets Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
+Fine-mapping can only be conducted for studies that we have full summary statistics for. Currently this only consists of UK Biobank summary statistics from the Neale lab. We are currently working with the GWAS Catalog to create a summary statistics repository, which will then be included in the Open Targets Genetics. We encourage the scientific community to submit their full summary statistics to the GWAS Catalog.
 
 #### **Why isn't my variant in the portal?**
 
