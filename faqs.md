@@ -44,7 +44,7 @@ Sometimes GWAS Catalog data has been curated from multiple tables in a publicati
 
 For every single variant that is independently and significantly associated with one study, we will display individual beta coefficient values with respect to the alternative allele of each of these variants, such as variants 19\_44886339\_G\_A, 19\_44908822\_C\_T, 1\_109274968\_G\_T associated with [LDL cholesterol](https://genetics.opentargets.org/study/GCST002222).
 
-On the other hand, we display the **study beta** coefficient in the colocalisation table of the study locus page. This beta is with respect to the alternative allele of one single variant, the **lead variant** at the top of the study locus page e.g. [LDL cholesterol \(GCST002222\) with locus around 19\_44886339\_G\_A \(rs7254892\)](https://genetics.opentargets.org/study-locus/GCST002222/19_44886339_G_A).
+On the other hand, we display the **study beta** coefficient in the colocalisation table of the study locus page e.g. [LDL cholesterol \(GCST002222\) with locus around 19\_44886339\_G\_A \(rs7254892\)](https://genetics.opentargets.org/study-locus/GCST002222/19_44886339_G_A). This beta is with respect to the alternative allele of a single variant, the **lead variant** at the top of the study locus page \(i.e. rs7254892 for the LDL cholesterol study\).
 
 The reason we have decided to display the study beta it to facilitate the comparison of the direction of effect across different colocalising tissues. 
 
@@ -66,7 +66,7 @@ Our variant index is built from the gnomAD \(v2.1\) site list, filtered to keep 
 
 #### **Why doesn't my variant report the GTEx QTL?**
 
-We apply a multiple testing correction that is different from GTEx method. We use a method that is applicable across datasets, and not all datasets conduct a permutation analysis. We use a Bonferroni correction based on the number of variants tested per gene, i.e. p &lt; 0.05 / \(number of tests per gene\). For example, GTEx assigns rs4734621 \([8\_102432699\_T\_C](https://genetics.opentargets.org/variant/8_102432699_T_C)\) UBR5 whereas our V2G pipeline assigns it to ODF1 and NCALD. More details on filtering can be found in the [pre-processing](https://genetics-docs.opentargets.org/our-approach/data-pipeline#pre-processing) help page
+We apply a multiple testing correction that is different from the GTEx method. We use a method that is applicable across datasets, and not all datasets conduct a permutation analysis. We use a Bonferroni correction based on the number of variants tested per gene, i.e. p &lt; 0.05 / \(number of tests per gene\). For example, GTEx assigns rs4734621 \([8\_102432699\_T\_C](https://genetics.opentargets.org/variant/8_102432699_T_C)\) to UBR5 whereas our V2G pipeline assigns it to both ODF1 and NCALD. More details on filtering can be found in the [pre-processing](https://genetics-docs.opentargets.org/our-approach/data-pipeline#pre-processing) help page
 
 #### **How do I download the credible set of variants for an association of interest?**
 
