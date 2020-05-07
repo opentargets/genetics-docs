@@ -40,7 +40,7 @@ For more details, check the [release blog post](https://blog.opentargets.org/201
 
 #### 18 October 2018
 
-Version 1 of Open Targets Genetics was released at the American Society of Human Genetics conference in San Diego in October 2018. Head to [ASHG Workshop 2018](https://app.gitbook.com/@opentargets/s/open-targets-genetics-documentation/~/drafts/-M6kKMhrUemGpvPtzD0v/meetings/ashg-workshop-2018) for the training materials presented at that meeting.
+Open Targets Genetics was first released on 18th October 2018 at the American Society of Human Genetics conference in San Diego in October 2018. 
 
-Future updates to the portal will be documented here.
+Head to [ASHG Workshop 2018](https://genetics-docs.opentargets.org/meetings/ashg-workshop-2018) for the training materials presented at that meeting.
 
