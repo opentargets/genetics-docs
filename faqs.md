@@ -34,6 +34,10 @@ An effect size may not be shown in the portal if: \(1\)  the effect was not cura
 
 Sometimes GWAS Catalog data has been curated from multiple tables in a publication, some with betas, others with odds ratios. In these cases a mixture of betas and odds ratios may be displayed for a single study.
 
+#### **What is summary statistics?**
+
+Summary statistics is the aggregate p-values and association data for every variant analysed in a genome-wide association study.
+
 #### **Why is there no LD information for my associated-locus of interest?**
 
 Linkage disequilibrium is calculated using the 1000 Genome Phase 3 reference panel. If your variant is not in this panel post-QC \(MAF &gt; 1% and max missing rate &lt; 0.05\) then we will not provide any LD information for it.
