@@ -1,6 +1,6 @@
 # How to find the Ensembl ID for a gene
 
-You need to know the Ensembl gene ID for your gene \(or target\) of interest before using the Open Targets Genetics GraphQL API for more complex queries \(e.g. find which studies are associated with a gene based on the locus-to-gene pipeline\).
+You need to know the Ensembl gene ID for your gene of interest e.g. [PCSK9](https://genetics.opentargets.org/gene/ENSG00000169174) before using the Open Targets Genetics GraphQL API for more complex queries.
 
 Use the`searchWithSymbol`query:
 

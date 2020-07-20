@@ -1,8 +1,8 @@
 # How to find studies and lead variants assigned by L2G
 
-Finding which studies \(or traits\) and lead variants are ****assigned to a gene as a result of the L2G pipeline.
+This example illustrates how you can find all studies from the GWAS Catalog or UK Biobank  e.g. [GCST008413](https://genetics.opentargets.org/study/GCST008413) and [NEALE2\_1687](https://genetics.opentargets.org/study/GCST008413), plus all lead variants assigned to a gene as a result of the L2G pipeline.
 
-`Query`
+Use the `studiesAndLeadVariantsForGene`query:
 
 ```
   studiesAndLeadVariantsForGeneByL2G(geneId: "ENSG00000158158") {
