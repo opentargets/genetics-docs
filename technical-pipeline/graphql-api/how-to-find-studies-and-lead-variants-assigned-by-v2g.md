@@ -1,6 +1,8 @@
 # How to find studies and lead variants assigned by V2G
 
-Finding which studies \(or traits\) and lead variants are ****assigned to a gene as a result of the V2G pipeline.
+This is a tutorial to illustrate how you can finding which studies \(GWAS Catalog or UK Biobank traits\) and the lead variants assigned to a gene as a result of the [V2G pipeline](https://genetics-docs.opentargets.org/our-approach/data-pipeline).
+
+Use `studiesAndLeadVariantsForGene`.
 
 `Query`
 
