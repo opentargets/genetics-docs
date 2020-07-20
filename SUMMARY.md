@@ -19,6 +19,7 @@
 * [A Study \(Trait\)](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md)
 * [Multiple Studies](how-to-use-open-targets-genetics-starting-with/multiple-traits-or-diseases.md)
 * [A Variant](how-to-use-open-targets-genetics-starting-with/variant.md)
+* [Untitled](how-to-use-open-targets-genetics-starting-with/untitled.md)
 * [Introducing the Locus Plot](how-to-use-open-targets-genetics-starting-with/introducing...-the-gecko-plot.md)
 
 ## Technical Pipeline
@@ -30,6 +31,7 @@
   * [How to find the Ensembl ID for a gene](technical-pipeline/graphql-api/tutorials.md)
   * [How to find studies and lead variants assigned by V2G](technical-pipeline/graphql-api/how-to-find-studies-and-lead-variants-assigned-by-v2g.md)
   * [How to find studies and lead variants assigned by L2G](technical-pipeline/graphql-api/how-to-find-studies-and-lead-variants.md)
+  * [How to retrieve aggregated scores for genes functionally implicated by a variant](technical-pipeline/graphql-api/how-to-retrieve-aggregated-scores-for-genes-functionally-implicated-by-a-variant.md)
 * [Change log](technical-pipeline/change-log.md)
 * [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
 
