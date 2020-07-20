@@ -1,6 +1,4 @@
-# Tutorials
-
-## **How to find the Ensembl gene ID for your gene of interest**
+# How to find the Ensembl gene ID for a target
 
 `Query`
 

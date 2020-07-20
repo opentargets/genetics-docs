@@ -25,9 +25,10 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
-* [GraphQL API](technical-pipeline/graphql-api/README.md)
-  * [Tutorials](technical-pipeline/graphql-api/tutorials.md)
 * [Data Download](technical-pipeline/data-download.md)
+* [GraphQL API tutorials](technical-pipeline/graphql-api/README.md)
+  * [How to find the Ensembl gene ID for a target](technical-pipeline/graphql-api/tutorials.md)
+  * [How to find studies and lead variants](technical-pipeline/graphql-api/how-to-find-studies-and-lead-variants.md)
 * [Change log](technical-pipeline/change-log.md)
 * [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
 

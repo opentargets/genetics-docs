@@ -1,4 +1,4 @@
-# GraphQL API
+# GraphQL API tutorials
 
 GraphQL is the query language for the Open Targets Genetics API.
 
