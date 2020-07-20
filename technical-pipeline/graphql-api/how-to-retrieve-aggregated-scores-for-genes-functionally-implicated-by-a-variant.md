@@ -1,4 +1,4 @@
-# How to retrieve aggregated scores for genes functionally implicated by a variant
+# How to retrieve scores and betas for genes functionally implicated by a variant
 
 Retrieve beta coefficient and p-value for genes that are functionally implicated by a variant.
 
