@@ -1,4 +1,4 @@
-# How to retrieve genes, overall score and betas for genes functionally implicated by a single variant
+# How to retrieve genes, score and betas for genes functionally implicated by a single variant
 
 This tutorial shows how you can retrieve the overall score, beta coefficient values, p-values and other related statistics for all genes functionally implicated by a single variant \(e.g. [11\_59864062\_C\_T](https://genetics.opentargets.org/variant/11_59864062_C_T)\).
 
