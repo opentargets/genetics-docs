@@ -25,7 +25,8 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
-* [GraphQL API](technical-pipeline/graphql-api.md)
+* [GraphQL API](technical-pipeline/graphql-api/README.md)
+  * [Tutorials](technical-pipeline/graphql-api/tutorials.md)
 * [Data Download](technical-pipeline/data-download.md)
 * [Change log](technical-pipeline/change-log.md)
 * [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
