@@ -1,4 +1,4 @@
-# How to find the Ensembl gene ID for a target
+# How to find the Ensembl ID for a gene
 
 `Query`
 

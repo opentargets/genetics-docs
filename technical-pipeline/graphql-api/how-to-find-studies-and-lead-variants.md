@@ -1,4 +1,4 @@
-# How to find studies and lead variants
+# How to find studies and lead variants assigned by L2G
 
 Finding which studies \(or traits\) and lead variants are ****assigned to a gene as a result of the L2G pipeline.
 
