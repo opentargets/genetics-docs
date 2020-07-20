@@ -1,10 +1,8 @@
 # How to find studies and lead variants assigned by V2G
 
-This is a tutorial to illustrate how you can finding which studies \(GWAS Catalog or UK Biobank traits\) and the lead variants assigned to a gene as a result of the [V2G pipeline](https://genetics-docs.opentargets.org/our-approach/data-pipeline).
+This example illustrates how you can find all studies from the GWAS Catalog or UK Biobank  e.g. [GCST008413](https://genetics.opentargets.org/study/GCST008413) and [NEALE2\_1687](https://genetics.opentargets.org/study/GCST008413), plus all lead variants assigned to a gene as a result of the [V2G pipeline](https://genetics-docs.opentargets.org/our-approach/data-pipeline).
 
-Use `studiesAndLeadVariantsForGene`.
-
-`Query`
+Use the `studiesAndLeadVariantsForGene`query:
 
 ```text
 {
