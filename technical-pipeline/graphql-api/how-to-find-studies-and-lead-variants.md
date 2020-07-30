@@ -5,6 +5,7 @@ This tutorial illustrates how you can find all studies from the GWAS Catalog or 
 Use the `studiesAndLeadVariantsForGeneByL2G`query:
 
 ```
+  {
   studiesAndLeadVariantsForGeneByL2G(geneId: "ENSG00000158158") {
     variant {
       id
@@ -438,4 +439,6 @@ Use the `studiesAndLeadVariantsForGeneByL2G`query:
   }
 }
 ```
+
+![Finding studies and lead variants assigned by L2G using the GraphiQL browser](../../.gitbook/assets/screen-shot-2020-07-30-at-13.16.26.png)
 
