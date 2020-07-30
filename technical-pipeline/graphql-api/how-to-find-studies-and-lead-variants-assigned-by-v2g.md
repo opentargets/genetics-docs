@@ -710,5 +710,7 @@ Use the `studiesAndLeadVariantsForGene`query:
 }
 ```
 
-![](../../.gitbook/assets/screen-shot-2020-07-30-at-13.02.06.png)
+![Finding studies and lead variants assigned by V2G using the GraphiQL browser](../../.gitbook/assets/screen-shot-2020-07-30-at-13.02.06.png)
+
+
 
