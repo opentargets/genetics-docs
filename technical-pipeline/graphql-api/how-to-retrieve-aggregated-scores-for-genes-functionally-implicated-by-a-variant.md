@@ -420,5 +420,5 @@ Use the `genesForVariant`query:
 }
 ```
 
-![Retrieving genes, score and betas for genes implicated by a single variant using the GraphiQL browser](../../.gitbook/assets/screen-shot-2020-07-30-at-13.20.08.png)
+![Retrieving genes, score and betas for genes implicated by a single variant using GraphiQL](../../.gitbook/assets/screen-shot-2020-07-30-at-13.20.08.png)
 
