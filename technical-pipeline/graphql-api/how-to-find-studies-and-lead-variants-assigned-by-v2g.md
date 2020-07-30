@@ -710,3 +710,5 @@ Use the `studiesAndLeadVariantsForGene`query:
 }
 ```
 
+![](../../.gitbook/assets/screen-shot-2020-07-30-at-13.02.06.png)
+
