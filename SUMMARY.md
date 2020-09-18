@@ -10,6 +10,7 @@
 * [Overview](our-approach/pipeline-overview.md)
 * [Assigning Variants to Disease \(V2D\)](our-approach/assigning-traits-to-loci.md)
 * [Assigning Variants to Genes \(V2G\)](our-approach/data-pipeline.md)
+* [Prioritising causal genes at GWAS loci \(L2G\)](our-approach/prioritising-causal-genes-at-gwas-loci-l2g.md)
 * [Colocalisation analysis](our-approach/colocalisation-analysis.md)
 * [Data Sources](our-approach/data-sources.md)
 
@@ -19,7 +20,6 @@
 * [A Study \(Trait\)](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md)
 * [Multiple Studies](how-to-use-open-targets-genetics-starting-with/multiple-traits-or-diseases.md)
 * [A Variant](how-to-use-open-targets-genetics-starting-with/variant.md)
-* [Untitled](how-to-use-open-targets-genetics-starting-with/untitled.md)
 * [Introducing the Locus Plot](how-to-use-open-targets-genetics-starting-with/introducing...-the-gecko-plot.md)
 
 ## Technical Pipeline
