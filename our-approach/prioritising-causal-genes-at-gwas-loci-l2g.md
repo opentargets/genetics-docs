@@ -85,6 +85,12 @@ The L2G model produces a score, ranging from 0 to 1, which reflects the approxim
 
 A key strength of the L2G score is that it aggregates information over all credible set variants, rather than looking only at the distance from the lead GWAS variant to genes.
 
+### **Feature importance**
+
+The plot below shows the relative importance of the different features in the L2G model.
+
+![](../.gitbook/assets/l2g_feature_importances%20%281%29.png)
+
 ### Possible bias
 
 The L2G model is trained to identify GSP genes, and hence it will perform well for loci that are very similar to our GSP gene set. It is important to keep in mind that the set of genes currently identified as “causal” is likely to be strongly biased towards those that are nearest to the GWAS peak, for at least the following reasons:
