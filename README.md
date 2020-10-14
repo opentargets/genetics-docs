@@ -1,6 +1,6 @@
 # Introduction
 
-### About the Open Targets Genetics Portal
+### Overview
 
 The [**Open Targets Genetics Portal**](https://genetics.opentargets.org/) is a tool highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci and identification of potential drug targets.
 
@@ -14,13 +14,15 @@ The Open Targets Genetics Portal is an open-source tool that is freely available
 Please **clearly acknowledge use of this resource** in your published works, by citing our latest paper published in October 2020 by Ghoussaini et al, [Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics](https://doi.org/10.1093/nar/gkaa840)
 {% endhint %}
 
+### About Open Targets
+
 [Open Targets](https://www.opentargets.org/) is an academic-industrial partnership which aims to address the inefficiencies of standard drug development pipelines, and expedite the translation of research findings to licensed drugs. We integrate large-scale genetics and genomics with drug information to influence the way drug targets are identified and prioritised.
 
-Using human cell models and genome editing, we have been systematically generating new data to identify drug targets for three main therapeutic areas: oncology, immunology, and neurodegeneration. Our [Open Targets Platform](https://www.targetvalidation.org) enables users to investigate associations between genes and diseases based on germline variants, somatic mutations, affected pathways, drugs, differential expression data, text mining, and animal models. We created Open Targets Genetics as a complementary, variant-focussed resource aimed at geneticists, to flexibly integrate all trait and functional annotations for human polymorphic variants.
+Using human cell models and genome editing, we have been systematically generating new data to identify drug targets for three main therapeutic areas: oncology, immunology, and neurodegeneration. Our [Open Targets Platform](https://www.targetvalidation.org) enables users to investigate associations between genes and diseases based on germline variants, somatic mutations, affected pathways, drugs, differential expression data, text mining, and animal models. We created the Open Targets Genetics Portal as a complementary, variant-focussed resource aimed at geneticists, to flexibly integrate all trait and functional annotations for human polymorphic variants.
 
 ### Our Partners
 
-Open Targets is a joint collaboration between Bristol Myers Squibb, the European Molecular Biology Laboratory - European Bioinformatics Institute \(EMBL-EBI\), GSK, Sanofi, Takeda, and the Wellcome Sanger Institute.
+Open Targets is a joint collaboration between Bristol Myers Squibb, the European Bioinformatics Institute \(EMBL-EBI\), GSK, Sanofi, Takeda, and the Wellcome Sanger Institute.
 
 ### Copyright
 
