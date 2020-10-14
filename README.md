@@ -1,16 +1,16 @@
 # Introduction
 
-Open Targets Genetics is a portal highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci, and identification of potential drug targets.
+The [**Open Targets Genetics Portal**](https://genetics.opentargets.org/) is a tool highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci and identification of potential drug targets.
 
-It is well established that proximity is a poor basis on which to prioritise 'causal' genes at a trait-associated locus. Rather, integrating functional and biological data from multiple heterogeneous sources allows functionally implicated genes to be highlighted. Our portal aggregates and merges genetic associations curated from both literature and newly-derived loci from UK Biobank, which contains functional genomics data \(e.g. chromatin conformation, chromatin interactions\) and quantitative trait loci \(eQTLs and pQTLs\). We apply statistical fine-mapping across thousands of trait-associated loci to resolve association signals, and link each variant to its proximal and distal target gene\(s\), using a single evidence score. Integrated cross-trait colocalisation analyses and linking to detailed pharmaceutical compounds extend the capacity of Open Targets Genetics to explore drug repositioning opportunities and shared genetic architecture. Take a look at our [Data Pipeline](our-approach/data-pipeline.md) and [Data Sources](our-approach/data-sources.md#overview-of-data-sources) for more detailed information.
+It is well established that proximity is a poor basis on which to prioritise 'causal' genes at a trait-associated locus. Rather, integrating functional and biological data from multiple heterogeneous sources allows functionally implicated genes to be highlighted. Our portal aggregates and merges genetic associations curated from both literature and newly-derived loci from UK Biobank, which contains functional genomics data \(e.g. chromatin conformation, chromatin interactions\) and quantitative trait loci \(eQTLs and pQTLs\). We apply statistical fine-mapping across thousands of trait-associated loci to resolve association signals, and link each variant to its proximal and distal target gene\(s\), using a single evidence score. Integrated cross-trait colocalisation analyses and linking to detailed pharmaceutical compounds extend the capacity of the Open Targets Genetics Portal to explore drug repositioning opportunities and shared genetic architecture. Take a look at our [data pipeline](our-approach/data-pipeline.md) and [data sources](our-approach/data-sources.md#overview-of-data-sources) for more detailed information.
 
-Whatever your starting point - [gene](how-to-use-open-targets-genetics-starting-with/gene-target.md), [trait](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md) or [variant ](how-to-use-open-targets-genetics-starting-with/variant.md)- Open Targets Genetics enables detailed biological insight and causal gene prioritisation, and informs target decision making. It can be used to answer specific biological and target hypotheses, or as an exploratory tool - for example, to rapidly prioritise genes at associated loci in a new GWAS. Have a look at our [workshop exercises](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LIksz47AbnCef_uSkAf%2F-LOc9vhK4WMrcHvz1yv8%2F-LOcOAruyjuKCnnyMcMM%2FASHG_Workshop_Exercises_Handout.pdf?alt=media&token=f2027b64-e4d0-456f-b696-d3b17b91508f) or get started by navigating Open Targets Genetics now.
+Whatever your starting point - [gene](how-to-use-open-targets-genetics-starting-with/gene-target.md), [trait](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md) or [variant ](how-to-use-open-targets-genetics-starting-with/variant.md)- the Genetics Portal enables detailed biological insight and causal gene prioritisation and informs target decision making. It can be used to answer specific biological and target hypotheses or as an exploratory too \(e.g. to prioritise genes at associated loci in a new GWAS\). 
 
 {% hint style="success" %}
-Open Targets is wholly open-source, freely available to academic and for-profit users alike. Please **clearly acknowledge use of this resource** in your published works, by including the URL genetics.opentargets.org and citing our latest paper [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331).
-{% endhint %}
+The Open Targets Genetics Portal is an open-source tool that is freely available to academic and industry users. 
 
-## About Open Targets
+Please **clearly acknowledge use of this resource** in your published works, by citing our latest paper published in October 2020 by Ghoussaini et al, [Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics](https://doi.org/10.1093/nar/gkaa840)
+{% endhint %}
 
 [Open Targets](https://www.opentargets.org/) is an academic-industrial partnership which aims to address the inefficiencies of standard drug development pipelines, and expedite the translation of research findings to licensed drugs. We integrate large-scale genetics and genomics with drug information to influence the way drug targets are identified and prioritised.
 
@@ -22,7 +22,7 @@ Open Targets is a joint collaboration between Bristol Myers Squibb, the European
 
 ## Copyright
 
-Copyright 2014-2018 Bristol Myers Squibb, EMBL - European Bioinformatics Institute, GlaxoSmithKline, Takeda Pharmaceutical Company, Sanofi S.A., and Wellcome Sanger Institute. This software was developed as part of the Open Targets project \(www.opentargets.org\)
+Copyright 2014-2020 Bristol Myers Squibb, EMBL - European Bioinformatics Institute, GlaxoSmithKline, Takeda Pharmaceutical Company, Sanofi S.A., and Wellcome Sanger Institute. This software was developed as part of the Open Targets project \(www.opentargets.org\)
 
 Licensed under the Apache License, Version 2.0 \(the "License"\); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
