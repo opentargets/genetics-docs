@@ -26,12 +26,6 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
-* [Data Download](technical-pipeline/data-download.md)
-* [GraphQL API tutorials](technical-pipeline/graphql-api/README.md)
-  * [How to find the Ensembl ID for a gene](technical-pipeline/graphql-api/tutorials.md)
-  * [How to find studies and lead variants assigned by V2G](technical-pipeline/graphql-api/how-to-find-studies-and-lead-variants-assigned-by-v2g.md)
-  * [How to find studies and lead variants assigned by L2G](technical-pipeline/graphql-api/how-to-find-studies-and-lead-variants.md)
-  * [How to retrieve genes, score and betas for genes functionally implicated by a single variant](technical-pipeline/graphql-api/how-to-retrieve-aggregated-scores-for-genes-functionally-implicated-by-a-variant.md)
 * [Change log](technical-pipeline/change-log.md)
 * [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
 
@@ -39,4 +33,13 @@
 
 * [ESHG Workshop 2019](meetings/eshg-workshop-2019.md)
 * [ASHG Workshop 2018](meetings/ashg-workshop-2018.md)
+
+## Data access
+
+* [Data Download](data-access/data-download.md)
+* [GraphQL API tutorials](data-access/graphql-api/README.md)
+  * [How to find the Ensembl ID for a gene](data-access/graphql-api/tutorials.md)
+  * [How to find studies and lead variants assigned by V2G](data-access/graphql-api/how-to-find-studies-and-lead-variants-assigned-by-v2g.md)
+  * [How to find studies and lead variants assigned by L2G](data-access/graphql-api/how-to-find-studies-and-lead-variants.md)
+  * [How to retrieve genes, score and betas for genes functionally implicated by a single variant](data-access/graphql-api/how-to-retrieve-aggregated-scores-for-genes-functionally-implicated-by-a-variant.md)
 
