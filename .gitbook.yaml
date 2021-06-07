@@ -1,0 +1,3 @@
+redirects:
+    technical-pipeline/graphql-api: ./data-access/graphql-api/README.md
+    technical-pipeline/data-download: ./data-access/data-download.md
