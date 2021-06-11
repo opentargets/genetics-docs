@@ -9,5 +9,5 @@ description: >-
 
 ![](../.gitbook/assets/genetics-data-pipeline-20-jan-2020.png)
 
-{% file src="../.gitbook/assets/genetics-data-pipeline-10-jul-2019.jpg" caption="Download pipeline schematic" %}
+{% file src="../.gitbook/assets/genetics-data-pipeline-10-jul-2019 \(2\).jpg" caption="Download pipeline schematic" %}
 
