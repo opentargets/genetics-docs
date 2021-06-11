@@ -9,9 +9,7 @@ It is well established that proximity is a poor basis on which to prioritise 'ca
 Whatever your starting point - [gene](how-to-use-open-targets-genetics-starting-with/gene-target.md), [trait](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md) or [variant ](how-to-use-open-targets-genetics-starting-with/variant.md)- the Genetics Portal enables detailed biological insight and causal gene prioritisation and informs target decision making. It can be used to answer specific biological and target hypotheses or as an exploratory too \(e.g. to prioritise genes at associated loci in a new GWAS\). 
 
 {% hint style="success" %}
-The Open Targets Genetics Portal is an open-source tool that is freely available to academic and industry users. 
-
-Please **clearly acknowledge use of this resource** in your published works, by citing our latest paper published in October 2020 by Ghoussaini et al, [Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics](https://doi.org/10.1093/nar/gkaa840)
+The Open Targets Genetics Portal is an open source, freely available research tool that is available for both academic and commercial purposes. If you use our data or our computation pipelines in your work, please cite our [latest publication](https://genetics-docs.opentargets.org/citation#latest-publication). 
 {% endhint %}
 
 ### About Open Targets
