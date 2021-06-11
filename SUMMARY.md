@@ -4,6 +4,7 @@
 * [Release Notes](release-notes.md)
 * [FAQs](faqs.md)
 * [Future Plans](upcoming-features.md)
+* [Citation](citation.md)
 
 ## Our Approach
 
@@ -42,8 +43,4 @@
   * [How to find studies and lead variants assigned by V2G](data-access/graphql-api/how-to-find-studies-and-lead-variants-assigned-by-v2g.md)
   * [How to find studies and lead variants assigned by L2G](data-access/graphql-api/how-to-find-studies-and-lead-variants.md)
   * [How to retrieve genes, score and betas for genes functionally implicated by a single variant](data-access/graphql-api/how-to-retrieve-aggregated-scores-for-genes-functionally-implicated-by-a-variant.md)
-
----
-
-* [Citation](citation.md)
 
