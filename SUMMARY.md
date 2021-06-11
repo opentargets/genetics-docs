@@ -4,6 +4,7 @@
 * [Release Notes](release-notes.md)
 * [FAQs](faqs.md)
 * [Future Plans](upcoming-features.md)
+* [Licence](licence.md)
 * [Citation](citation.md)
 
 ## Our Approach
