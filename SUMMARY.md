@@ -6,6 +6,7 @@
 * [Future Plans](upcoming-features.md)
 * [Licence](licence.md)
 * [Citation](citation.md)
+* [Terms of Use](terms-of-use.md)
 
 ## Our Approach
 
