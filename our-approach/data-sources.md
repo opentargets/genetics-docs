@@ -14,6 +14,7 @@
 * [GWAS Catalog summary statistics](https://www.ebi.ac.uk/gwas/summary-statistics)
 * [Neale lab UK Biobank summary statistics](http://www.nealelab.is/uk-biobank/)
 * [SAIGE UK Biobank summary statistics](https://www.ncbi.nlm.nih.gov/pubmed/30104761)
+* [FinnGen summary statistics](https://r5.finngen.fi/)
 
 #### **Haplotype reference samples**
 

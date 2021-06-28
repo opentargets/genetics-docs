@@ -61,3 +61,7 @@ Credible set analysis is conducted for each associated locus using the above con
 
 The implementation of our fine-mapping pipeline can be found [here](https://github.com/opentargets/finemapping).
 
+### **FinnGen**
+
+Summary statistics and fine-mapping results from FinnGen are handled differently, [described here](finngen.md).
+

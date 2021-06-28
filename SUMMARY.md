@@ -16,6 +16,7 @@
 * [Prioritising causal genes at GWAS loci \(L2G\)](our-approach/prioritising-causal-genes-at-gwas-loci-l2g.md)
 * [Colocalisation analysis](our-approach/colocalisation-analysis.md)
 * [Data Sources](our-approach/data-sources.md)
+* [FinnGen](our-approach/finngen.md)
 
 ## How To Use Open Targets Genetics starting with
 
