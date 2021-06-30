@@ -1,4 +1,4 @@
-# Release Notes
+# Release notes
 
 #### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts. 
 

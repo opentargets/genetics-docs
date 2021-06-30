@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Release Notes](release-notes.md)
+* [Release notes](release-notes.md)
+* [Change log](change-log.md)
 * [FAQs](faqs.md)
 * [Future Plans](upcoming-features.md)
 * [Licence](licence.md)
@@ -30,7 +31,6 @@
 
 * [What Technologies Do We Use?](technical-pipeline/backend.md)
 * [GitHub Repositories](technical-pipeline/github-repositories.md)
-* [Change log](technical-pipeline/change-log.md)
 * [Pipeline schematic overview](technical-pipeline/pipeline-description.md)
 
 ## Meetings
