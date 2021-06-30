@@ -10,7 +10,7 @@
   * 220 new studies with full summary statistics
   * 11,669 new curated studies
 
-For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-5/) and the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log) page.
+For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-5/) and the [change log](release-notes.md) page.
 
 #### 02 March 2020
 
