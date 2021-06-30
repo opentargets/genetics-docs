@@ -1,6 +1,16 @@
 # Release Notes
 
-#### Head to Open Targets blog for all [Genetics-releases](http://blog.opentargets.org/tag/genetics-releases/) posts. 
+#### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts. 
+
+#### 29 June 2021
+
+* FinnGen R5 sumstats - 2,781 endpoints
+* Updated PheWAS plot to allow selection of FinnGen, UK Biobank, GWAS catalog
+* Updated GWAS Catalog studies
+  * 220 new studies with full summary statistics
+  * 11,669 new curated studies
+
+For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-5/) and the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log) page.
 
 #### 02 March 2020
 
