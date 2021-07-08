@@ -41,7 +41,7 @@
 ## Data access
 
 * [Data Download](data-access/data-download.md)
-* [GraphQL API tutorials](data-access/graphql-api/README.md)
+* [GraphQL API](data-access/graphql-api/README.md)
   * [How to find the Ensembl ID for a gene](data-access/graphql-api/tutorials.md)
   * [How to find studies and lead variants assigned by V2G](data-access/graphql-api/how-to-find-studies-and-lead-variants-assigned-by-v2g.md)
   * [How to find studies and lead variants assigned by L2G](data-access/graphql-api/how-to-find-studies-and-lead-variants.md)
