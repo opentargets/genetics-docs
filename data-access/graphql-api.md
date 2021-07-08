@@ -24,8 +24,6 @@ Our GraphQL API supports queries for a single variant, gene, study, or study-var
 
 Below is an example GraphQL query for the Locus2Gene data for [FINNGEN\_R5\_E4\_DM2 \(Type 2 diabetes\) and 11\_72752390\_G\_A](https://genetics.opentargets.org/study-locus/FINNGEN_R5_E4_DM2/11_72752390_G_A).
 
-To  that you can copy and paste into [our GraphQL playground](https://api.genetics.opentargets.org/graphql/browser).
-
 ```graphql
 query genePrioritisationUsingL2G {
   studyLocus2GeneTable(studyId: "FINNGEN_R5_E4_DM2", variantId: "11_72752390_G_A") {
@@ -46,7 +44,7 @@ query genePrioritisationUsingL2G {
 }
 ```
 
-Using GraphQL's [query strings](https://graphql.org/learn/queries/) and [variables object](https://graphql.org/graphql-js/passing-arguments/) constructs, you can also access the data using a programming language that supports HTTP `POST` requests. While this is a valid approach, we discourage users from repeatedly querying the GraphQL API one entity at a time. Instead, our comprehensive [datasets available for download](data-download.md) provide a simpler and more performant strategy to achieve the same result.
+Using GraphQL's [query strings](https://graphql.org/learn/queries/) and [variables object](https://graphql.org/graphql-js/passing-arguments/) constructs, you can also access the data using any programming language that supports HTTP `POST` requests. While this is a valid approach, we discourage users from repeatedly querying the GraphQL API one entity at a time. Instead, our comprehensive [datasets available for download](data-download.md) provide a simpler and more performant strategy to achieve the same result.
 
 ## Sample scripts
 
