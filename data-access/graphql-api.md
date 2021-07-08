@@ -22,7 +22,9 @@ Our GraphQL API supports queries for a single variant, gene, study, or study-var
 
 ## Sample GraphQL query
 
-Below is an example GraphQL query for the Locus2Gene data for [FINNGEN\_R5\_E4\_DM2 \(Type 2 diabetes\) and 11\_72752390\_G\_A](https://genetics.opentargets.org/study-locus/FINNGEN_R5_E4_DM2/11_72752390_G_A).
+Below is a [sample GraphQL API query](https://api.genetics.opentargets.org/graphql/browser?query=query%20genePrioritisationUsingL2G%20%7B%0A%20%20studyLocus2GeneTable%28studyId%3A%20%22FINNGEN_R5_E4_DM2%22%2C%20variantId%3A%20%2211_72752390_G_A%22%29%20%7B%0A%20%20%20%20rows%20%7B%0A%20%20%20%20%20%20gene%20%7B%0A%20%20%20%20%20%20%20%20symbol%0A%20%20%20%20%20%20%20%20id%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20yProbaModel%0A%20%20%20%20%20%20yProbaDistance%0A%20%20%20%20%20%20yProbaInteraction%0A%20%20%20%20%20%20yProbaMolecularQTL%0A%20%20%20%20%20%20yProbaPathogenicity%0A%20%20%20%20%20%20hasColoc%0A%20%20%20%20%20%20distanceToLocus%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D&operationName=genePrioritisationUsingL2G) for the Locus2Gene data for `FINNGEN_R5_E4_DM2 (Type 2 diabetes)` and `11_72752390_G_A` that you can run in the [GraphQL API browser](https://api.genetics.opentargets.org/graphql/browser).
+
+The query will recreate the data table available in the "Gene prioritisation using locus-to-gene pipeline" section on the [FINNGEN\_R5\_E4\_DM2 and 11\_72752390\_G\_A study-locus page](https://genetics.opentargets.org/study-locus/FINNGEN_R5_E4_DM2/11_72752390_G_A).
 
 ```graphql
 query genePrioritisationUsingL2G {
