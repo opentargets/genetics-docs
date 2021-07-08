@@ -102,8 +102,51 @@ print(api_response_as_json["data"]["studyLocus2GeneTable"]["rows"][0])
 ```
 {% endtab %}
 
-{% tab title="R \(coming soon\)" %}
-For information on how to use R to access the Genetics Portal GraphQL API, please visit the [Open Targets Community](https://community.opentargets.org/). 
+{% tab title="R" %}
+```r
+# Install relevant library for HTTP requests
+library(httr)
+
+# Set study_id and variant_id variables
+study_id <- "FINNGEN_R5_E4_DM2"
+variant_id <- "11_72752390_G_A"
+
+# Build query string
+query_string = "
+  query genePrioritisationUsingL2G($myVariantId: String!, $myStudyId: String! ){
+    studyLocus2GeneTable(studyId: $myStudyId, variantId: $myVariantId){
+      rows {
+        gene {
+          symbol
+          id
+        }
+        yProbaModel
+        yProbaDistance
+        yProbaInteraction
+        yProbaMolecularQTL
+        yProbaPathogenicity
+        hasColoc
+        distanceToLocus
+      }
+    }
+  }
+"
+
+# Set base URL of Genetics Portal GraphQL API endpoint
+base_url <- "https://api.genetics.opentargets.org/graphql"
+
+# Set variables object of arguments to be passed to endpoint
+variables <- list("myStudyId" = study_id, "myVariantId" = variant_id)
+
+# Construct POST request body object with query string and variables
+post_body <- list(query = query_string, variables = variables)
+
+# Perform POST request
+r <- POST(url=base_url, body=post_body, encode='json')
+
+# Print first entry of L2G data to RStudio console
+head(content(r)$data$studyLocus2GeneTable$rows, 1)
+```
 {% endtab %}
 {% endtabs %}
 
