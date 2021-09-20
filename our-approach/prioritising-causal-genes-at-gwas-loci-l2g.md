@@ -40,9 +40,13 @@ The [gold-standard gene repository](https://github.com/opentargets/genetics-gold
 
 ### Variant-centric features
 
-Except for molecular trait colocalisation evidence, each functional genomics dataset is variant-centric, meaning they give variant-to-gene scores. We convert variant-centric scores into locus-to-gene scores by aggregating over credible variants identified through fine mapping. For GWAS studies with summary statistics available we used credible sets from approximate Bayes factor \(ABF\) fine-mapping, otherwise we used LD-based credible sets computed with the PICS method \([Farh et al. 2015](https://pubmed.ncbi.nlm.nih.gov/25363779/)\). We implemented two complementary methods for aggregating over credible sets. Firstly, we took a weighted sum of scores across all variants identified by fine mapping \(PP &gt; 0.01%\) using the posterior probability \(PP of causality as weights \(Equation 1\). Secondly, we took the maximum score for any variant in the 95% credible set
+Except for molecular trait colocalisation evidence, each functional genomics dataset is variant-centric, meaning they give variant-to-gene scores. We convert variant-centric scores into locus-to-gene scores by aggregating over credible variants identified through fine mapping. For GWAS studies with summary statistics available we used credible sets from approximate Bayes factor \(ABF\) fine-mapping, otherwise we used LD-based credible sets computed with the PICS method \([Farh et al. 2015](https://pubmed.ncbi.nlm.nih.gov/25363779/)\). We implemented two complementary methods for aggregating over credible sets. Firstly, we took a weighted sum of scores across all variants identified by fine mapping \(PP &gt; 0.01%\) using the posterior probability \(PP of causality as weights. An example of credible set weighting is shown in the figure below.
 
-In total, we defined 51 locus-level predictive features based on data from the four evidence categories \(pathogenicity prediction, QTL colocalisation, gene distance, and chromatin interaction\). The datasets that the features are based on are the same as for the V2G pipeline.
+![Schematic showing how weighted variant to gene distance features are calculated.](../.gitbook/assets/distance-calculation-schematic-v2-cropped.png)
+
+Secondly, we took the maximum score for any variant in the 95% credible set. 
+
+In total, we defined 51 locus-level predictive features based on data from the four evidence categories \(pathogenicity prediction, QTL colocalisation, gene distance, and chromatin interaction\).
 
 Examples of these features are:
 
@@ -79,7 +83,7 @@ Validation of the model is described in our manuscript introducing the L2G score
 
 ## Interpreting the L2G score
 
-The L2G model produces a score, ranging from 0 to 1, which reflects the approximate fraction of GSP genes among all genes near a given threshold \(Figure 2\). This can be interpreted to say that genes with an L2G score of 0.5 have a 50% chance of being the causal gene at the locus, _under the assumption that the model is correct and the locus itself is similar to those in our gold-standard training data_.
+The L2G model produces a score, ranging from 0 to 1, which reflects the approximate fraction of GSP genes among all genes near a given threshold. This can be interpreted to say that genes with an L2G score of 0.5 have a 50% chance of being the causal gene at the locus, _under the assumption that the model is correct and the locus itself is similar to those in our gold-standard training data_.
 
 **Note:** Because models don’t generalise perfectly, the true fraction of causal genes at an L2G score of 0.5 is likely to be less than 50%.
 
