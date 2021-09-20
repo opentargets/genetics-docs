@@ -79,7 +79,7 @@ Validation of the model is described in our manuscript introducing the L2G score
 
 ## Interpreting the L2G score
 
-The L2G model produces a score, ranging from 0 to 1, which reflects the approximate fraction of GSP genes among all genes above a given threshold \(Figure 2\). This can be interpreted to say that genes with an L2G score of 0.5 have a 50% chance of being the causal gene at the locus, _under the assumption that the model is correct and the locus itself is similar to those in our gold-standard training data_.
+The L2G model produces a score, ranging from 0 to 1, which reflects the approximate fraction of GSP genes among all genes near a given threshold \(Figure 2\). This can be interpreted to say that genes with an L2G score of 0.5 have a 50% chance of being the causal gene at the locus, _under the assumption that the model is correct and the locus itself is similar to those in our gold-standard training data_.
 
 **Note:** Because models don’t generalise perfectly, the true fraction of causal genes at an L2G score of 0.5 is likely to be less than 50%.
 
