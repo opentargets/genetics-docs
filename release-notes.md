@@ -1,6 +1,18 @@
 # Release notes
 
-#### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts. 
+#### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts.&#x20;
+
+#### 25 Nov 2021
+
+* Updated eQTL catalogue studies
+  * 125 total tissue/cell type contexts from 29 studies
+  * 3.6 million colocalisation tests recomputed across all GWAS/eQTLs
+* Updated GWAS Catalog studies
+  * 1,015 new studies with full summary statistics
+  * 2,444 new curated studies
+* PheWAS plot now limited to p < 0.005 to improve performance
+
+For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-6/) and the [change log](change-log.md) page.
 
 #### 29 June 2021
 
@@ -31,26 +43,25 @@ For more details, check the [release blog post](https://blog.opentargets.org/201
 
 #### 11 April 2019
 
-* Fix compute score for distance \(canonical tss\) dataset where distance was `0`
-* Compute a quantile score based on the rank of each variant 2 gene evidence in a \(`source_id`, `feature`\) window over the raw `*_score`
+* Fix compute score for distance (canonical tss) dataset where distance was `0`
+* Compute a quantile score based on the rank of each variant 2 gene evidence in a (`source_id`, `feature`) window over the raw `*_score`
 
 For more details, check the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log) page.
 
 #### 1 April 2019
 
-* New release of GWAS Catalog curated data \(r2019-03-01\)
+* New release of GWAS Catalog curated data (r2019-03-01)
 * Harmonised effect sizes for curated variant-disease associations
-* GWAS Catalog sub-phenotypes \("p-value text" field\) automatically split into separate study IDs
-* Subset of GWAS Catalog studies undergo additional distance-based clustering \(±500kb\) to remove redundant top loci
-* Distance between variants and each canonical transcript start site \(TSS\) within 500kb has been added to the variant-to-gene data
-* VEP consequences `intron_variant`, `5_prime_UTR_variant`, `3_prime_UTR_variant`, `NMD_transcript_variant` have been given non-zero \(0.1\) scores in the V2G assignment
-* We now use the gnomAD \(v2.1\) site list as our variant index
+* GWAS Catalog sub-phenotypes ("p-value text" field) automatically split into separate study IDs
+* Subset of GWAS Catalog studies undergo additional distance-based clustering (±500kb) to remove redundant top loci
+* Distance between variants and each canonical transcript start site (TSS) within 500kb has been added to the variant-to-gene data
+* VEP consequences `intron_variant`, `5_prime_UTR_variant`, `3_prime_UTR_variant`, `NMD_transcript_variant` have been given non-zero (0.1) scores in the V2G assignment
+* We now use the gnomAD (v2.1) site list as our variant index
 
 For more details, check the [release blog post](https://blog.opentargets.org/2019/04/09/open-targets-genetics-release-is-out/) and the [change log](https://genetics-docs.opentargets.org/technical-pipeline/change-log) page.
 
 #### 18 October 2018
 
-Open Targets Genetics was first released on 18th October 2018 at the American Society of Human Genetics conference in San Diego in October 2018. 
+Open Targets Genetics was first released on 18th October 2018 at the American Society of Human Genetics conference in San Diego in October 2018.&#x20;
 
 Head to [ASHG Workshop 2018](https://genetics-docs.opentargets.org/meetings/ashg-workshop-2018) for the training materials presented at that meeting.
-
