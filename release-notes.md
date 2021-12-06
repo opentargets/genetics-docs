@@ -5,12 +5,13 @@
 #### 25 Nov 2021
 
 * Updated eQTL catalogue studies
-  * 125 total tissue/cell type contexts from 29 studies
-  * 3.6 million colocalisation tests recomputed across all GWAS/eQTLs
+  * 125 total tissue/cell type contexts from 29 studies (including GTEx v8)
+  * 3.7 million colocalisation tests recomputed across all GWAS/eQTLs
 * Updated GWAS Catalog studies
-  * 1,015 new studies with full summary statistics
-  * 2,444 new curated studies
+  * 1,029 new studies with full summary statistics
+  * 2,451 new curated studies
 * PheWAS plot now limited to p < 0.005 to improve performance
+* Updated gene build from Ensembl 96 to Ensembl 104
 
 For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-6/) and the [change log](change-log.md) page.
 
