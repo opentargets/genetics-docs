@@ -15,7 +15,7 @@ description: >-
 
 ### Data version&#x20;
 
-[21.11](http://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
+[21.10.01](http://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
 
 ### Technical infrastructure
 
