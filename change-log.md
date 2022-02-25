@@ -7,6 +7,24 @@ description: >-
 
 # Change log
 
+## Version 7 - 22.02
+
+### Release date
+
+25 February 2022
+
+### Data version&#x20;
+
+[22.02.1](http://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/22.02.01/)
+
+### Technical infrastructure
+
+* genetics-pipe: [22.02.1](https://github.com/opentargets/genetics-pipe/releases/tag/22.02.1)
+* genetics-backend: [21.11.1](https://github.com/opentargets/genetics-backend/releases/tag/21.11.1)
+* genetics-api:[ ](https://github.com/opentargets/genetics-api/releases/tag/21.06.07)[22.02.1](https://github.com/opentargets/genetics-api/releases/tag/22.02.1)
+* genetics-app: [22.02.5](https://github.com/opentargets/genetics-app/releases/tag/22.02.5)
+* terraform-google-genetics-portal: [deployment\_context.2202\_4](https://github.com/opentargets/terraform-google-opentargets-platform/blob/main/profiles/deployment\_context.2202\_4)
+
 ## Version 6 - 21.11
 
 ### Release date
