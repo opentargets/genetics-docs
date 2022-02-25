@@ -5,9 +5,9 @@
 #### 25 February 2022
 
 * New pQTL studies
-  * 1,658 **new pQTL associations** from 6 studies in blood plasma: [Folkersen et al. 2017](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006706); [Hillary et al. 2019](https://www.nature.com/articles/s41467-019-11177-x); [Olli et al. 2016](https://www.cell.com/ajhg/fulltext/S0002-9297\(16\)30485-2); [Pietzner et al. 2020](https://rdcu.be/cGGrc); [SCALLOP consortium, 2020](https://rdcu.be/cGGp3); [Suhre et al. 2017](https://www.nature.com/articles/ncomms14357)
+  * 1,658 new pQTL associations from 6 studies in blood plasma: [Folkersen et al. 2017](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006706); [Hillary et al. 2019](https://www.nature.com/articles/s41467-019-11177-x); [Olli et al. 2016](https://www.cell.com/ajhg/fulltext/S0002-9297\(16\)30485-2); [Pietzner et al. 2020](https://rdcu.be/cGGrc); [SCALLOP consortium, 2020](https://rdcu.be/cGGp3); [Suhre et al. 2017](https://www.nature.com/articles/ncomms14357)
 * Updated GWAS Catalog studies
-  * 1,508 **new GWAS studies** from 192 publications in the GWAS Catalog. 653 of these have summary statistics
+  * 1,508 new GWAS studies from 192 publications in the GWAS Catalog. 653 of these have summary statistics
 * Fix to the colocalisation pipeline, and other data fixes
 * Improvements to the front-end
 
