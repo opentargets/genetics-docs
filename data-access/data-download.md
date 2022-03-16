@@ -3,22 +3,14 @@
 You can get all data from Open Targets Genetics via:
 
 * EMBL-EBI FTP, database [Open Targets Genetics](ftp://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/)
-* Google BigQuery, project [open-targets-genetics:210608](https://console.cloud.google.com/bigquery?project=open-targets-genetics&p=open-targets-genetics&d=210608&page=dataset)
-* [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics&folder&organizationId) \(GCS\) paywalled public bucket
+* Google BigQuery, project [open-targets-genetics:genetics](https://console.cloud.google.com/bigquery?project=open-targets-genetics\&p=open-targets-genetics\&d=genetics\&page=dataset)
+* [Google Cloud Storage](https://console.cloud.google.com/storage/browser/open-targets-genetics-releases?project=open-targets-genetics\&folder\&organizationId) (GCS) paywalled public bucket
 
 {% hint style="warning" %}
-Please note that if you download this data using Google Cloud Storage, all charges to bucket `open-targets-genetics-releases` will be billed to the requester. 
+Please note that if you download this data using Google Cloud Storage, all charges to bucket `open-targets-genetics-releases` will be billed to the requester.&#x20;
 
-Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en_US&_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage for more detail.
+Please refer to the [Requester Pays](https://cloud.google.com/storage/docs/requester-pays?hl=en\_US&\_ga=2.173037540.-691607024.1554819113) feature for Google Cloud Storage for more detail.
 {% endhint %}
-
-## Versioning Table
-
-| Data | 19.03.03 | 10.05.05 | 20.02.01 | 21.06.08 |
-| :--- | :--- | :--- | :--- | :--- |
-| [Backend scripts](https://github.com/opentargets/genetics-backend) | 19.03.08 | 19.05.28 | 20.02.03 | 21.06.02 |
-| [Spark pipeline](https://github.com/opentargets/genetics-pipe) | 19.03.10 | 19.05.15 | 20.02.01 | 21.06.03 |
-| [GraphQL API](https://github.com/opentargets/genetics-api) | 19.03.11 | 19.05.26 | 20.02.07 | 21.06.02 |
 
 ## Data Schema
 
@@ -28,16 +20,16 @@ The list of datasets with each corresponding data schema
 Please change the URL tags to their corresponding tables, stated above, as required.
 {% endhint %}
 
-| Folder name | Format | Spark Schema | SQL Schema \(Clickhouse Dialect\) |
-| :--- | :--- | :--- | :--- |
-| variant-index | parquet | - | - |
-| v2g | jsonl | [schema link](https://github.com/opentargets/genetics-pipe/blob/19.03.10/src/main/scala/ot/geckopipe/index/V2GIndex.scala#L36) | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/v2g_log.sql) |
-| v2d | jsonl | [schema link](https://github.com/opentargets/genetics-pipe/blob/19.03.10/src/main/scala/ot/geckopipe/index/V2DIndex.scala#L12) | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/v2d_log.sql) |
-| d2v2g | jsonl | - | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/d2v2g_log.sql) |
-| lut/genes-index | jsonl | - | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/genes.sql) |
-| lut/overlap-index | jsonl | - | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/studies_overlap_log.sql) |
-| lut/study-index | jsonl | - | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/studies_log.sql) |
-| lut/variant-index | jsonl | - | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/variants_log.sql) |
+| Folder name       | Format  | Spark Schema                                                                                                                   | SQL Schema (Clickhouse Dialect)                                                                                           |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| variant-index     | parquet | -                                                                                                                              | -                                                                                                                         |
+| v2g               | jsonl   | [schema link](https://github.com/opentargets/genetics-pipe/blob/19.03.10/src/main/scala/ot/geckopipe/index/V2GIndex.scala#L36) | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/v2g\_log.sql)              |
+| v2d               | jsonl   | [schema link](https://github.com/opentargets/genetics-pipe/blob/19.03.10/src/main/scala/ot/geckopipe/index/V2DIndex.scala#L12) | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/v2d\_log.sql)              |
+| d2v2g             | jsonl   | -                                                                                                                              | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/d2v2g\_log.sql)            |
+| lut/genes-index   | jsonl   | -                                                                                                                              | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/genes.sql)                 |
+| lut/overlap-index | jsonl   | -                                                                                                                              | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/studies\_overlap\_log.sql) |
+| lut/study-index   | jsonl   | -                                                                                                                              | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/studies\_log.sql)          |
+| lut/variant-index | jsonl   | -                                                                                                                              | [schema link](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/variants\_log.sql)         |
 
 ## Some Tips
 
@@ -76,7 +68,7 @@ gsutil cat 'gs://open-targets-genetics-releases/19.03.04/lut/variant-index/part-
 
 ### Loading data into a ClickHouse instance
 
-There is an [initial bash](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/create_and_load_everything_from_scratch.sh) script you can use in order to load all data into a ClickHouse instance. In that script, you will find lines like this
+There is an [initial bash](https://github.com/opentargets/genetics-backend/blob/19.03.08/loaders/clickhouse/create\_and\_load\_everything\_from\_scratch.sh) script you can use in order to load all data into a ClickHouse instance. In that script, you will find lines like this
 
 ```bash
 echo create studies tables
@@ -85,4 +77,3 @@ gsutil cat "${base_path}/lut/study-index/part-*" | clickhouse-client -h 127.0.0.
 clickhouse-client -m -n < studies.sql
 clickhouse-client -m -n -q "drop table ot.studies_log;"
 ```
-
