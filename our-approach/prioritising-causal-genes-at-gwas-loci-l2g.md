@@ -18,7 +18,9 @@ The L2G model is distinct from the variant-to-gene (V2G) pipeline in that it:
 
 Some of the predictive features weight variant-to-gene (or genomic region-to-gene) evidence based on the posterior probability that the variant is causal based on fine-mapping of the GWAS association.
 
-Details of the L2G model are provided below, as well as in an upcoming manuscript.
+Details of the L2G model are provided below, as well as in our [Nature Genetics publication](https://rdcu.be/cO2YV):
+
+Mountjoy, E., Schmidt, E.M., Carmona, M. _et al._ An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. _Nat Genet_ **53,** 1527–1533 (2021). https://doi.org/10.1038/s41588-021-00945-5
 
 ## Gold-standard GWAS gene assignments
 
