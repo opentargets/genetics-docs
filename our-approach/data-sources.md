@@ -38,7 +38,7 @@
 
 &#x20;   \- [Pietzner et al. 2020](https://rdcu.be/cGGrc)
 
-&#x20;   \-[SCALLOP consortium, 2020](https://rdcu.be/cGGp3)
+&#x20;   \- [SCALLOP consortium, 2020](https://rdcu.be/cGGp3)
 
 &#x20;   \- [Suhre et al. 2017](https://www.nature.com/articles/ncomms14357)
 
