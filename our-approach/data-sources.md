@@ -26,9 +26,9 @@
 * _In silico_ functional prediction
   * [Variant-Effect Predictor (VEP)](https://www.ncbi.nlm.nih.gov/pubmed/27268795): Most severe transcript consequence(s)
 * Molecular quantitative trait locus (QTL) experiments
-  * pQTL: Evidence linking genetic variation to protein abundance in the list of studies below:
+* pQTL: Evidence linking genetic variation to protein abundance in the list of studies below:
 
-&#x20;    \- [Sun et al. 2018](https://pubmed.ncbi.nlm.nih.gov/29875488/)
+&#x20;   \- [Sun et al. 2018](https://pubmed.ncbi.nlm.nih.gov/29875488/)
 
 &#x20;   \- [Folkersen et al. 2017](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006706)
 
@@ -42,7 +42,7 @@
 
 &#x20;   \- [Suhre et al. 2017](https://www.nature.com/articles/ncomms14357)
 
-* eQTL: Evidence linking genetic variation to gene expression. See table below:
+* eQTL: Evidence linking genetic variation to gene expression. See table below: &#x20;
 
 | Consortium                                              | Tissues/cell types                                                                      |
 | ------------------------------------------------------- | --------------------------------------------------------------------------------------- |
