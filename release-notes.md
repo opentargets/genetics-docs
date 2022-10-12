@@ -1,6 +1,8 @@
 # Release notes
 
-#### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts.&#x20;
+Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts.
+
+#### 12 October 2022
 
 #### 15 August 2022
 
@@ -18,7 +20,15 @@
 
 For more details, see the release blog post and the change log page.
 
-#### 25 February 2022
+* Integration of sQTLs from GTEx
+* Update to GWAS Catalog studies
+  * 6,591 new studies from 70 publications, none of which contain summary statistics
+* Integration of FinnGen R6
+  * The FinnGen R6 data freeze had data from over 260,000 individuals, analysed almost 17 million variants for over 2,800 disease endpoints (phenotypes). This data was made available to the public in January 2022
+* Implementation of a Forest Plot in the variant page
+* New API page with key example queries
+
+**25 February 2022**
 
 * New pQTL studies
   * 1,658 new pQTL associations from 6 studies in blood plasma: [Folkersen et al. 2017](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006706); [Hillary et al. 2019](https://www.nature.com/articles/s41467-019-11177-x); [Olli et al. 2016](https://www.cell.com/ajhg/fulltext/S0002-9297\(16\)30485-2); [Pietzner et al. 2020](https://rdcu.be/cGGrc); [SCALLOP consortium, 2020](https://rdcu.be/cGGp3); [Suhre et al. 2017](https://www.nature.com/articles/ncomms14357)
