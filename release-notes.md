@@ -8,7 +8,7 @@ Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.o
 * Update to GWAS Catalog studies
   * 6,591 new studies from 70 publications, none of which contain summary statistics
 * Integration of FinnGen R6
-  * The FinnGen R6 data freeze had data from over 260,000 individuals, analysed almost 17 million variants for over 2,800 disease endpoints (phenotypes). This data was made available to the public in January 2022
+  * The FinnGen R6 data freeze had data from over 260,000 individuals, analysed almost 17 million variants for over 2,800 disease endpoints (phenotypes)
 * Implementation of a Forest Plot in the variant page
 * New API page with key example queries
 
