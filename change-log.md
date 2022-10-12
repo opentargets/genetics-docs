@@ -20,7 +20,7 @@ description: >-
 ### Technical infrastructure
 
 * genetics-api:[ ](https://github.com/opentargets/genetics-api/releases/tag/21.06.07)[22.10.03](https://github.com/opentargets/genetics-api/releases/tag/22.10.3)
-* genetics-app: [v0.2.6](https://github.com/opentargets/ot-ui-apps/releases/tag/v0.2.6)
+* ot-ui-apps: [v0.2.6](https://github.com/opentargets/ot-ui-apps/releases/tag/v0.2.6)
 * terraform-google-genetics-portal: [deployment\_context.2210](https://github.com/opentargets/terraform-google-genetics-portal/blob/main/profiles/deployment\_context.2210)
 
 
