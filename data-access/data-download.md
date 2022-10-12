@@ -33,9 +33,9 @@ Please change the URL tags to their corresponding tables, stated above, as requi
 
 ## Some Tips
 
-### Checking some lines from the GCS Bucket
+### Previewing datasets from the GCS bucket
 
-You can potentially stream the content directly from a Google Cloud Bucket using `gsutil` command
+The `gsutil` command can be used to preview datasets prior to downloading:
 
 ```bash
 gsutil cat 'gs://open-targets-genetics-releases/19.03.04/lut/variant-index/part-*' | head -1 | jq .

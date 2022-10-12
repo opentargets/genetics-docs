@@ -6,12 +6,12 @@
 
 All variants in the variant index are annotated using our Variant-to-Gene (V2G) pipeline. The pipeline integrates V2G evidence that fall into four main data types:
 
-1. Molecular phenotype quantitative trait loci experiments (QTLs)
+1. Molecular phenotype quantitative trait loci experiments (eQTLs, pQTLs and sQTLs)
 2. Chromatin interaction experiments, e.g. Promoter Capture Hi-C (PCHi-C)
 3. _In silico_ functional predictions, e.g. Variant Effect Predictor (VEP) from Ensembl
 4. Distance between the variant and each gene's canonical transcription start site (TSS)
 
-Within each data type there are multiple sources of information produced by different experimental methods. Some of these sources can further be broken down into separate tissues or cell types (features). A full list of data sources used in the V2G pipeline can be seen on the [Data Sources](data-sources.md) page.
+Within each data type there are multiple sources of information produced by different experimental methods. Some of these sources can further be broken down into separate tissues or cell types (features). A full list of data sources used in the V2G pipeline can be seen on the [Data Sources](data-sources/) page.
 
 ### Pre-processing
 
@@ -40,15 +40,16 @@ Given the scale of the data, a scoring system was developed so that for a given 
 
 **Step 2, Aggregate across sources.** The next stage is to combine information across the sources to produce an overall V2G score. Given the heterogenous nature of the data, we may have more confidence in evidence from some sources over others. We therefore down-weight some sources before aggregation. Using _a prior_ knowledge we rank evidence from sources in this order \[ Transcript functional prediction > QTLs > Interaction based data sets ] and apply the following weights:
 
-| Data type                         | Experiment type          | Source                            | Weighting |
-| --------------------------------- | ------------------------ | --------------------------------- | --------- |
-| _In silico_ functional prediction | Transcript consequence   | VEP                               | 1.0       |
-| QTL                               | eQTL                     | _many_                            | 0.66      |
-| QTL                               | pQTL                     | Sun _et al._ (Nature, 2018)       | 0.66      |
-| Interaction                       | PCHi-C                   | Javierre _et al._ (Cell, 2016)    | 0.33      |
-| Interaction                       | Enhancer-TSS correlation | Andersson _et al._ (Nature, 2014) | 0.33      |
-| Interaction                       | DHS-promoter correlation | Thurman _et al. _(Nature,  2012)  | 0.33      |
-| Distance                          | Canonical TSS            |                                   | 0.33      |
+| Data type                         | Experiment type          | Source                                                                     | Weighting |
+| --------------------------------- | ------------------------ | -------------------------------------------------------------------------- | --------- |
+| _In silico_ functional prediction | Transcript consequence   | VEP                                                                        | 1.0       |
+| QTL                               | sQTL                     | [GTEx v8](https://www.science.org/doi/10.1126/science.aaz1776?cookieSet=1) | 1.0       |
+| QTL                               | eQTL                     | _many_                                                                     | 0.66      |
+| QTL                               | pQTL                     | _many_                                                                     | 0.66      |
+| Interaction                       | PCHi-C                   | Javierre _et al._ (Cell, 2016)                                             | 0.33      |
+| Interaction                       | Enhancer-TSS correlation | Andersson _et al._ (Nature, 2014)                                          | 0.33      |
+| Interaction                       | DHS-promoter correlation | Thurman _et al._ (Nature,  2012)                                           | 0.33      |
+| Distance                          | Canonical TSS            |                                                                            | 0.33      |
 
 After weighting, sources are aggregated across sources by taking the mean weighted-quantile to give an overall V2G score for each $$(V, G)$$ pair.
 

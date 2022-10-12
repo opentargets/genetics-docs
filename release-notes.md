@@ -2,6 +2,22 @@
 
 #### Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.org/tag/open-targets-genetics/) posts.&#x20;
 
+#### 15 August 2022
+
+* Incorporated sQTLs from GTEx v8.
+  * Derived from the [leafcutter](https://www.nature.com/articles/s41588-017-0004-9) method.&#x20;
+  * Existing features for QTLs (Credible sets, GWAS - Molecular trait colocalisation) are available for sQTLs.
+  * sQTL predictive features added to L2G and V2G. &#x20;
+* Updated GWAS Catalog studies
+  * 6,526 new GWAS studies from 109 publications, of which, 3,442 contains summary statistics.
+* Ran the L2G pipeline to include the FINNGEN R6 data and the GTEx splice QTL colocalisation for this version of the Genetics portal.
+*   Added new forest plot to visualise and compare traits associated with a given variant.
+
+    \
+
+
+For more details, see the release blog post and the change log page.
+
 #### 25 February 2022
 
 * New pQTL studies

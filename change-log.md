@@ -7,6 +7,20 @@ description: >-
 
 # Change log
 
+## Version 8 - 22.08
+
+### Release date
+
+15th August 2022
+
+### Data version
+
+link to version.
+
+### Technical infrastructure
+
+* links to github
+
 ## Version 7 - 22.02
 
 ### Release date

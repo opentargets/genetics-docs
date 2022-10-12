@@ -1,7 +1,7 @@
 # A Study (Trait)
 
 {% hint style="success" %}
-Search by a **Study**![](../.gitbook/assets/S\_30.png)to:&#x20;
+Search by a **Study**<img src="../.gitbook/assets/S_30.png" alt="" data-size="original">to:&#x20;
 
 1. View loci associated with a trait in the selected study
 2. Identify prioritised genes functionally implicated by each locus

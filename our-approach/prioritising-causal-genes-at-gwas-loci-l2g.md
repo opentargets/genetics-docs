@@ -95,7 +95,7 @@ A key strength of the L2G score is that it aggregates information over all credi
 
 The plot below shows the relative importance of the different features in the L2G model.
 
-![](<../.gitbook/assets/L2G\_Feature\_importances (1).png>)
+![](../.gitbook/assets/L2G\_feature\_importance\_220802.png)
 
 ### Possible bias
 

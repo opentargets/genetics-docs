@@ -1,6 +1,6 @@
 # Multiple Studies
 
-From the Study page, multiple studies can quickly be compared to identify overlapping signals.  To navigate to the study comparison view, click through the ![](<../.gitbook/assets/Screen Shot 2018-10-12 at 15.05.21.png>) button, in the header of the study page of the first study for comparison.
+From the Study page, multiple studies can quickly be compared to identify overlapping signals.  To navigate to the study comparison view, click through the <img src="../.gitbook/assets/Screen Shot 2018-10-12 at 15.05.21.png" alt="" data-size="original"> button, in the header of the study page of the first study for comparison.
 
 The first study will be loaded into the comparison view as the **root**, with reported loci at genome-wide significance plotted by position. Studies for comparison can be loaded into the view using the drop-down menu. Only studies with at least one overlapping locus will be displayed as an option for comparison. Studies in the drop-down are ordered decreasing on number of overlaps with the loaded root. When >1 study is loaded, intersecting loci across all of the loaded studies are displayed in red both on the intersection bar at the top of the view, and within each study. Loci within each study which overlap with the root study are displayed black. Non-overlapping loci are plotted grey.  &#x20;
 
@@ -16,7 +16,7 @@ In the summary table, only the lead variant from the **root** study is displayed
 
 ### How is Overlap Defined?
 
-The comparison view displays pre-calculated locus overlap between all studies currently available in Open Targets Genetics.  To define overlap for a given lead variant $$x$$ , the LD-defined tag variants of $$x$$ are cross-referenced to the tag variants of all lead variants within 5mB of $$x$$. In any case where a tag variant of $$x$$is shared with another lead variant, that lead is considered part of the same signal as $$x$$.  Each shared locus, therefore, can be considered as a set of signals occupying a common haplotype.   &#x20;
+The comparison view displays pre-calculated locus overlap between all studies currently available in Open Targets Genetics.  To define overlap for a given lead variant $$x$$ , the LD-defined tag variants of $$x$$ are cross-referenced to the tag variants of all lead variants within 500kb of $$x$$. In any case where a tag variant of $$x$$is shared with another lead variant, that lead is considered part of the same signal as $$x$$.  Each shared locus, therefore, can be considered as a set of signals occupying a common haplotype.   &#x20;
 
 
 

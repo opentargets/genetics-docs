@@ -1,7 +1,7 @@
 # A Variant
 
 {% hint style="success" %}
-Search by a Variant ![](<../.gitbook/assets/VL\_30 (1).png>) or ![](../.gitbook/assets/VT\_30.png) to:
+Search by a Variant <img src="../.gitbook/assets/VL_30 (1).png" alt="" data-size="original"> or <img src="../.gitbook/assets/VT_30.png" alt="" data-size="original"> to:
 
 1. Identify a ranked list of genes which are functionally implicated by the variant
 2. View and dissect the functional data by which genes are assigned to this variant
