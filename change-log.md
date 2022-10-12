@@ -7,19 +7,23 @@ description: >-
 
 # Change log
 
-## Version 8 - 22.08
+## Version 8 - 22.10
 
 ### Release date
 
-15th August 2022
+12 October 2022
 
 ### Data version
 
-link to version.
+[22.09](https://ftp.ebi.ac.uk/pub/databases/opentargets/genetics/22.09/)
 
 ### Technical infrastructure
 
-* links to github
+* genetics-api:[ ](https://github.com/opentargets/genetics-api/releases/tag/21.06.07)[22.10.03](https://github.com/opentargets/genetics-api/releases/tag/22.10.3)
+* genetics-app: [v0.2.6](https://github.com/opentargets/ot-ui-apps/releases/tag/v0.2.6)
+* terraform-google-genetics-portal: [deployment\_context.2210](https://github.com/opentargets/terraform-google-genetics-portal/blob/main/profiles/deployment\_context.2210)
+
+
 
 ## Version 7 - 22.02
 
