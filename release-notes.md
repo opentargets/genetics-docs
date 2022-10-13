@@ -4,7 +4,7 @@ Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.o
 
 #### 12 October 2022
 
-* Integration of sQTLs from GTEx
+* NEW! Integration of sQTLs from GTEx
 * Update to GWAS Catalog studies
   * 6,591 new studies from 70 publications, none of which contain summary statistics
 * Integration of FinnGen R6
