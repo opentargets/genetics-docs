@@ -24,7 +24,7 @@ GraphQL's [query strings](https://graphql.org/learn/queries/) and [variables obj
 
 ## Sample scripts
 
-Below is a sample script in Python for the same `StudyLocus2Gene` sample query:
+Below is a sample script in Python for the [`prioritised genes from study locus`](https://genetics.opentargets.org/api) sample query:
 
 {% tabs %}
 {% tab title="Python" %}
