@@ -24,7 +24,7 @@ GraphQL's [query strings](https://graphql.org/learn/queries/) and [variables obj
 
 ## Sample scripts
 
-Below is a sample script in Python for the same sample query -  [FINNGEN\_R5\_E4\_DM2 (Type 2 diabetes) and 11\_72752390\_G\_A](https://genetics.opentargets.org/study-locus/FINNGEN\_R5\_E4\_DM2/11\_72752390\_G\_A).
+Below is a sample script in Python for the same `StudyLocus2Gene` sample query:
 
 {% tabs %}
 {% tab title="Python" %}
@@ -36,8 +36,8 @@ import requests
 import json
 
 # Set study_id and variant_id variables
-study_id = "FINNGEN_R5_E4_DM2"
-variant_id = "11_72752390_G_A"
+study_id = "GCST009240_9"
+variant_id = "1_55052794_A_G"
 
 # Build query string
 query_string = """
@@ -84,8 +84,8 @@ print(api_response_as_json["data"]["studyLocus2GeneTable"]["rows"][0])
 library(httr)
 
 # Set study_id and variant_id variables
-study_id <- "FINNGEN_R5_E4_DM2"
-variant_id <- "11_72752390_G_A"
+study_id <- "GCST009240_9"
+variant_id <- "1_55052794_A_G"
 
 # Build query string
 query_string = "
