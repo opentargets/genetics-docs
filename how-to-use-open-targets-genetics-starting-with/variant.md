@@ -1,7 +1,7 @@
 # A Variant
 
 {% hint style="success" %}
-Search by a Variant ![](<../.gitbook/assets/VL\_30 (1).png>) or ![](../.gitbook/assets/VT\_30.png) to:
+Search by a Variant <img src="../.gitbook/assets/VL_30 (1).png" alt="" data-size="original"> or <img src="../.gitbook/assets/VT_30.png" alt="" data-size="original"> to:
 
 1. Identify a ranked list of genes which are functionally implicated by the variant
 2. View and dissect the functional data by which genes are assigned to this variant
@@ -39,7 +39,18 @@ To view tissue-specific evidence within a data source, select the data source fr
 
 ![](<../.gitbook/assets/Screen Shot 2018-10-17 at 15.20.16.png>)
 
-PheWAS results for the selected variant across all UK Biobank phenotypes released by Neale and colleagues are displayed as a PheWAS plot segregated by high-level phenotype grouping, and detailed in an underlying table.  The red line denotes the significance level after Bonferroni correction for the number of phenotypes testing, conservatively considering each as independent. The direction of the plot character arrow corresponds to the beta direction of effect, and points are coloured corresponding to their broad phenotype. Details of the association of each phenotype with the trait of interest are displayed in a table beneath the plot, which can be sorted, filtered on column, and downloaded. A direct locus view link is also provided for each phenotype, which will load the locus view with the variant and UK Biobank trait pre-selected.   &#x20;
+PheWAS results for the selected variant across all UK Biobank phenotypes released by Neale and colleagues are displayed as a PheWAS plot segregated by high-level phenotype grouping, and detailed in an underlying table.  The red line denotes the significance level after Bonferroni correction for the number of phenotypes testing, conservatively considering each as independent. The direction of the plot character arrow corresponds to the beta direction of effect, and points are coloured corresponding to their broad phenotype. Details of the association of each phenotype with the trait of interest are displayed in a table beneath the plot, which can be sorted, filtered on column, and downloaded. A direct locus view link is also provided for each phenotype, which will load the locus view with the variant and UK Biobank trait pre-selected.&#x20;
+
+
+
+While the PheWAS plot shows the association of a given variant with a range of traits and phenotypes, it does not show the effect sizes and lacks the functionality to focus on trait categories of interest. The forest plot can be used as a complementary tool alongside the PheWAS plot to compare effect sizes across different studies and traits hence helping with the identification of coherent and outlier effects across different studies to extract meaningful insights.\
+
+
+**Forest plot**
+
+The forest plot provides both tabular and graphical information. On the left-hand side of the table, trait names and p-values are displayed. The graphical representation on the right-hand side shows effect sizes (the beta on the x axis) and the corresponding 95% confidence intervals (horizontal lines around the black box). The vertical line corresponding to a beta of zero is known as the “line of null-effect.” This line is placed at the value where there is no association between the variant and the trait or disease. The traits are vertically aligned, grouped, and color-coded by trait category and ordered by effect size  &#x20;
+
+
 
 #### Related Variants
 
