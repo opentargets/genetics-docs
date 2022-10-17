@@ -12,7 +12,7 @@ Head to Open Targets blog for all [Genetics-releases](https://blog.opentargets.o
 * Implementation of a Forest Plot in the variant page
 * New API page with key example queries
 
-For more details, see the release blog post and the [change log](change-log.md) page.
+For more details, see the [release blog post](https://blog.opentargets.org/open-targets-genetics-version-8/) and the [change log](change-log.md) page.
 
 **25 February 2022**
 
