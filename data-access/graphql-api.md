@@ -1,6 +1,6 @@
 # GraphQL API
 
-The [Open Targets Genetics Portal API](https://genetics.opentargets.org/api) is a GraphQL API that powers the user interface and that supports language-agnostic access to our data.
+The [Open Targets Genetics API](https://genetics.opentargets.org/api) is a GraphQL API that powers the user interface and that supports language-agnostic access to our data.
 
 Compared to a REST API, our GraphQL API offers five key benefits:
 

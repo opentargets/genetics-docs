@@ -2,11 +2,10 @@
 
 There are some of the new functionalities and data coming up in future releases of Open Targets Genetics:
 
-* Tissue/SNP enrichment across diseases and traits \(CHEERS method\) 
-* Mendelian Randomisation \(6 proteomic summary stat data\) 
-* Tissue/trait-specific ‘Locus to Gene’ score 
-* Therapeutic-area specific profiles \(e.g. only include functional data relevant to immune-related disease in variant-to-gene assignment/scoring\)
+* Tissue/SNP enrichment across diseases and traits (CHEERS method)&#x20;
+* Mendelian Randomisation (6 proteomic summary stat data)&#x20;
+* Tissue/trait-specific ‘Locus to Gene’ score&#x20;
+* Therapeutic-area specific profiles (e.g. only include functional data relevant to immune-related disease in variant-to-gene assignment/scoring)
 * PheWAS based on rare variants
 
-Sing up to [Open Targets Genetics newsletter](https://opentargets.us17.list-manage.com/subscribe?u=d11d0467053c1d4b918eb8738&id=38f9f14944) to be informed of future updates or follow Open Targets on [Twitter](https://twitter.com/OpenTargets), [LinkedIN](https://www.linkedin.com/company/open-targets) and [Facebook](https://www.facebook.com/OpenTargets/).
-
+To be informed of future updates, follow Open Targets on [Twitter](https://twitter.com/OpenTargets) and [LinkedIn](https://www.linkedin.com/company/open-targets), and keep an eye on the [Open Targets Blog](https://blog.opentargets.org/) and [Open Targets Community](https://community.opentargets.org/).

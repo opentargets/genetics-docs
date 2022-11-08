@@ -1,22 +1,22 @@
 # FAQs
 
-#### **What genome build are data in the Genetics Portal based on?**
+#### **What genome build are data in Genetics based on?**
 
 All data are based on GRCh38 from the [Genome Reference Consortium](https://www.ncbi.nlm.nih.gov/grc).
 
-#### **How is the Genetics Portal related to the** [**Open Targets Platform**](https://www.targetvalidation.org)**?**
+#### **How is Open Targets Genetics related to the** [**Open Targets Platform**](https://www.targetvalidation.org)**?**
 
-The Genetics Portal is a variant-centric resource that complements the Open Targets Platform. Users can navigate to the Open Targets Platform from Open Targets Genetics and obtain for example drug information in clinical trials (or already marketed) for any target of interest.
+Open Targets Genetics is a variant-centric resource that complements the Open Targets Platform. Users can navigate to the Open Targets Platform from Open Targets Genetics and obtain for example drug information in clinical trials (or already marketed) for any target of interest.
 
-The Open Targets Genetics Portal is also one of [data sources](https://docs.targetvalidation.org/data-sources/genetic-associations#open-targets-genetics-portal) that provide evidence for target-disease associations available in the Open Targets Platform.
+Open Targets Genetics is also one of [data sources](https://docs.targetvalidation.org/data-sources/genetic-associations#open-targets-genetics-portal) that provide evidence for target-disease associations available in the Open Targets Platform.
 
 #### **How do I cite discoveries made using Open Targets Genetics?**
 
-Please cite our latest paper [Open Targets Platform: new developments and updates two years on](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gky1133/5193331).
+Please cite our latest paper [Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics](https://academic.oup.com/nar/article/49/D1/D1311/5921290?login=false).
 
 #### **How can I stay informed about new features and developments?**
 
-For updates, please subscribe to our [newsletter](https://opentargets.us17.list-manage.com/subscribe?u=d11d0467053c1d4b918eb8738\&id=f084c7a7c2). Questions and feedback can be directed to us via [email](mailto:geneticsportal@opentargets.org).
+For updates, please check the [Open Targets blog](https://blog.opentargets.org/) and [Open Targets Community](https://community.opentargets.org/), and follow us on [Twitter](https://twitter.com/OpenTargets) and [LinkedIn](https://www.linkedin.com/company/open-targets/).
 
 #### **Why are there two variants mapped to the same rsID?**
 

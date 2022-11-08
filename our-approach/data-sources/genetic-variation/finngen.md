@@ -1,6 +1,6 @@
 # FinnGen
 
-**Current Release in genetics portal: FinnGen R6**
+**Current Release in Open Targets Genetics: FinnGen R6**
 
 [FinnGen](https://www.finngen.fi/en) is an academia-industry partnership that aims to produce genome variant data for 500,000 Finns, using GWAS genotyping. The genomic data is then combined with phenotype data collected by national health registries, including extensive longitudinal registry data available on all Finns. FinnGen data will be updated in a series of releases over the next 4 years ([https://finngen.gitbook.io/documentation/releases](https://finngen.gitbook.io/documentation/releases)), as the sample size grows.
 
