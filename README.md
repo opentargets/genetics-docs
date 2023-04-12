@@ -8,6 +8,8 @@ It is well established that proximity is a poor basis on which to prioritise 'ca
 
 Whatever your starting point — [gene](how-to-use-open-targets-genetics-starting-with/gene-target.md), [trait](how-to-use-open-targets-genetics-starting-with/trait-or-disease.md) or [variant ](how-to-use-open-targets-genetics-starting-with/variant.md)— Open Targets Genetics enables detailed biological insight and causal gene prioritisation and informs target decision making. It can be used to answer specific biological and target hypotheses or as an exploratory too (e.g. to prioritise genes at associated loci in a new GWAS).&#x20;
 
+For additional help with Open Targets Genetics, or to report bugs, data issues, or submit a feature request, please post on the [Open Targets Community](https://community.opentargets.org/t/welcome-to-the-open-targets-community-forum/838), using the relevant categories and tags. If the request you would like to make has already been posted, please like the post to indicate you would like this to be prioritised.
+
 {% hint style="success" %}
 Open Targets Genetics is an open source, freely available research tool that is available for both academic and commercial purposes. If you use our data or our computation pipelines in your work, please cite [our latest publication](citation.md#latest-publication).&#x20;
 {% endhint %}
