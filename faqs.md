@@ -18,6 +18,10 @@ Please cite our latest paper [Open Targets Genetics: systematic identification o
 
 For updates, please check the [Open Targets blog](https://blog.opentargets.org/) and [Open Targets Community](https://community.opentargets.org/), and follow us on [Twitter](https://twitter.com/OpenTargets) and [LinkedIn](https://www.linkedin.com/company/open-targets/).
 
+**I would like to see a specific dataset or a new feature in Open Targets Genetics. How can I submit a feature request?**
+
+Please post on the Open Targets Community under our [Feature Request category](https://community.opentargets.org/c/feature-requests/16), using the relevant tags. If the request you would like to make has already been posted, please like the post to indicate you would like this to be prioritised. The team will keep track of and update on the progress of these feature requests.
+
 #### **Why are there two variants mapped to the same rsID?**
 
 Many multi-allelic sites can be assigned a single rsID, and some rsIDs can point to different positions in the genome. This means that rsIDs are not unique to a single variant. We have mapped all rsIDs from GWAS Catalog to unique variants. A small minority of rsIDs will map to multiple variant IDs (approximately 0.6% of lead variants). When this occurs, variants will be duplicated in the portal.
