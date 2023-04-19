@@ -2,7 +2,7 @@
 
 As one of Open Targets flagship informatics products, the team that maintains Open Targets Genetics is committed to building open source tools and supporting open access research.&#x20;
 
-The Genetics codebases and datasets are freely available for academic and commercial use.&#x20;
+Open Targets Genetics is marked with [CC0 1.0](http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1). This dedicates the data to the public domain, allowing downstream users to consume the data without restriction.
 
 If you use our code and/or our data, please cite [our latest publication](citation.md#latest-publication).&#x20;
 
