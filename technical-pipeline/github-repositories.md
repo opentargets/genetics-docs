@@ -10,6 +10,7 @@
 
 **Genetics methods**
 
+* [https://github.com/opentargets/mendelian-randomisation](https://github.com/opentargets/mendelian-randomisation): Mendelian Randomisation
 * [https://github.com/opentargets/genetics-l2g-scoring](https://github.com/opentargets/genetics-l2g-scoring): L2G pipeline
 * [https://github.com/opentargets/genetics-finemapping](https://github.com/opentargets/genetics-finemapping): Fine-mapping pipeline
 * [https://github.com/opentargets/genetics-colocalisation](https://github.com/opentargets/genetics-colocalisation): Colocalisation pipeline
