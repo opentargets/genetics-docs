@@ -8,7 +8,7 @@ There are some of the new functionalities and data coming up in future releases 
 * Therapeutic-area specific profiles (e.g. only include functional data relevant to immune-related disease in variant-to-gene assignment/scoring)
 * PheWAS based on rare variants
 
-In the meantime, the team is working on refactoring Open Targets Genetics, aiming to:
+In the meantime, the team is working on refactoring Open Targets Genetics pipelines, aiming to:
 
 * Re-focusing the product around Target ID
 * Creating a gold standard toolkit for post-GWAS analysis
